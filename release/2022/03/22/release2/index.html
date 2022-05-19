@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="SCS R2 released" />
+<meta name="author" content="Sovereign Cloud Stack" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The Sovereign Cloud Stack project, funded by the German Federal Ministry for Economic Affairs and Climate Action will release its third version of the SCS reference implementation R2 on March 23, 2022. Highlights of Release 2, to whose success a community of over 20 companies have contributed are updates of the integrated open source components, the simplified deployment on bare metal, significantly improved management of Kubernetes clusters, as well as the technical foundations for connecting to the Gaia-X Federation Services (GXFS)." />
+<meta property="og:description" content="The Sovereign Cloud Stack project, funded by the German Federal Ministry for Economic Affairs and Climate Action will release its third version of the SCS reference implementation R2 on March 23, 2022. Highlights of Release 2, to whose success a community of over 20 companies have contributed are updates of the integrated open source components, the simplified deployment on bare metal, significantly improved management of Kubernetes clusters, as well as the technical foundations for connecting to the Gaia-X Federation Services (GXFS)." />
+<link rel="canonical" href="https://scs.community/release/2022/03/22/release2/" />
+<meta property="og:url" content="https://scs.community/release/2022/03/22/release2/" />
+<meta property="og:site_name" content="Sovereign Cloud Stack" />
+<meta property="og:image" content="https://scs.community/assets/images/blog/pile.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-22T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://scs.community/assets/images/blog/pile.jpg" />
+<meta property="twitter:title" content="SCS R2 released" />
+<meta name="twitter:site" content="@scs_osballiance" />
+<meta name="twitter:creator" content="@Sovereign Cloud Stack" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Sovereign Cloud Stack"},"dateModified":"2022-05-19T09:53:48+00:00","datePublished":"2022-03-22T00:00:00+00:00","description":"The Sovereign Cloud Stack project, funded by the German Federal Ministry for Economic Affairs and Climate Action will release its third version of the SCS reference implementation R2 on March 23, 2022. Highlights of Release 2, to whose success a community of over 20 companies have contributed are updates of the integrated open source components, the simplified deployment on bare metal, significantly improved management of Kubernetes clusters, as well as the technical foundations for connecting to the Gaia-X Federation Services (GXFS).","headline":"SCS R2 released","image":"https://scs.community/assets/images/blog/pile.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://scs.community/release/2022/03/22/release2/"},"url":"https://scs.community/release/2022/03/22/release2/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <title>SCS R2 released | Sovereign Cloud Stack</title>
+  <meta property="og:title" content="SCS R2 released | Sovereign Cloud Stack">
+
+  <!-- Matomo -->
+  <script>
+    if (typeof(Storage) !== 'undefined') {
+    	if (localStorage.getItem('matomoTrackingEnabled') === null) {
+    		localStorage.setItem('matomoTrackingEnabled', 'true');
+    	}
+    }
+  </script>
+  <script>
+    if (localStorage.getItem('matomoTrackingEnabled') !== 'false') {
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['disableCookies']);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.scs.community/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" color="#50c3a5" href="/safari-pinned-tab.svg" />
+  <meta name="msapplication-TileColor" content="#50c3a5">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+  <div class="container align-items-start">
+    <div class="d-lg-flex flex-row flex-fill align-items-end">
+      <button
+        class="navbar-toggler me-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/">
+                Home
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Discover SCS
+              </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <li><a class="dropdown-item" href="/about/">About SCS</a></li>
+                  
+                    <li><a class="dropdown-item" href="/use/">Use SCS</a></li>
+                  
+                    <li><a class="dropdown-item" href="/community/">Our community</a></li>
+                  
+              </ul>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/news/">
+                News
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/jobs/">
+                Open positions
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/tenders/">
+                Public tenders
+              </a>
+            
+          </li>
+          
+        </ul>
+        <ul class="navbar-nav flex-row align-content-end">
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://twitter.com/scs_osballiance">
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://fosstodon.org/@sovereigncloudstack">
+              <i class="fa fa-mastodon fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://www.linkedin.com/showcase/sovereigncloudstack">
+              <i class="fa fa-linkedin-square fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://github.com/SovereignCloudStack">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://matrix.to/#/!TiDqlLmEUaXqTemaLc:matrix.org?via=matrix.org">
+              <i class="fa fa-matrix-org fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://scs.sovereignit.de/mailman3/postorius/lists/announce.lists.scs.community/">
+              <i class="fa fa-bullhorn"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="/feed.xml">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="d-none d-lg-block">
+        <ul class="navbar-nav flex-row">
+  <li class="nav-item my-auto ms-4 ms-lg-2">
+    <a class="nav-link fw-bold  text-decoration-underline  " href="/release/2022/03/22/release2/">EN</a>
+  </li>
+  <li class="nav-item my-auto mx-2 mx-lg-0">
+    <span class="nav-link px-0">/</span>
+  </li>
+  <li clas="nav-item my-auto">
+    <a class="nav-link fw-bold  " href="/de/release/2022/03/22/release2/">DE</a>
+  </li>
+</ul>
+      </div>
+    </div>
+    <div class="d-lg-none">
+      <ul class="navbar-nav flex-row">
+  <li class="nav-item my-auto ms-4 ms-lg-2">
+    <a class="nav-link fw-bold  text-decoration-underline  " href="/release/2022/03/22/release2/">EN</a>
+  </li>
+  <li class="nav-item my-auto mx-2 mx-lg-0">
+    <span class="nav-link px-0">/</span>
+  </li>
+  <li clas="nav-item my-auto">
+    <a class="nav-link fw-bold  " href="/de/release/2022/03/22/release2/">DE</a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+ <!-- Header -->
+<header class="bg-white py-2 mb-2">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-6 pe-lg-4">
+        <div class="mt-5 mb-3">
+           <img src="/assets/images/SCS_horizontal.svg" alt="Sovereign Cloud Stack" width="50%" class="img-fluid">  
+        </div>
+        <p class="lead text-black-50 mb-lg-3">
+          Sovereign Cloud Stack (SCS) is federated cloud technology built entirely with Open Source Software — putting users and providers in control.
+        </p>
+      </div>
+      <div class="col-lg-6 text-lg-end text-nowrap my-auto">
+        <a href="https://osb-alliance.com" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-osba.svg" alt="Open Source Business Alliance" width="25%" class="img-fluid">
+        </a>
+        <a href="https://bmwk.de" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-bmwk-funded.svg" alt="Bundesministerium für Wirtschaft und Klimaschutz" width="25%" class="img-fluid ms-5">
+        </a>
+        <a href="https://gaia-x.eu" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-gaiax.svg" alt="Gaia-X" width="30%" class="img-fluid ms-3">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    
+<div class="d-flex w-100 flex-column mb-3">
+	<h1 class="pb-1 mb-0"><small>SCS R2 released</small></h1>
+	<div class="d-flex w-100 flex-row">
+		<div style="max-width: 80px; max-height: 80px;" class="rounded-3 overflow-hidden ratio ratio-1x1">
+			<div style="max-width: 80px; max-height: 80px;" class="overflow-hidden ratio ratio-1x1">
+27
+
+  <svg height="80" width="80">
+    <mask id="cut">
+      <circle cx="40" cy="40" r="40" fill="white"/>
+    </mask>
+    <image x="0" y="0" height="80" width="80" xlink:href="/assets/images/SCS_logo.png" mask="url(#cut)"></image>
+  </svg>
+
+</div>
+		</div>
+		<div class="d-flex w-100 flex-column ms-3 my-auto">
+			<small class="mb-1 fw-bolder">Sovereign Cloud Stack</small>
+			<small>
+	March 22, 2022
+
+</small>
+		</div>
+	</div>
+</div>
+
+<p>The Sovereign Cloud Stack project, funded by the <a href="https://www.bmwi.de/Navigation/EN/Home/home.html">German Federal Ministry for Economic Affairs
+and Climate Action</a> will release
+its third version of the SCS reference implementation R2 on March 23, 2022. 
+Highlights of Release 2, to whose success a community of over 20 companies have 
+contributed are updates of the integrated open source components, the simplified
+deployment on bare metal, significantly improved management of Kubernetes clusters,
+as well as the technical foundations for connecting to the <a href="https://www.gxfs.eu/">Gaia-X Federation Services (GXFS)</a>.</p>
+
+<p>Defined and implemented in an open development process, the technology of <a href="https://scs.community/de/">Sovereign
+Cloud Stack (SCS)</a> is being tested by a growing
+number of companies and public IT service providers. In addition, two (soon three)
+providers are already using SCS in production environments to offer public cloud
+services. The C5 certification of our partner <a href="https://www.plusserver.com/en/">PlusServer</a>
+also proves that the Sovereign Cloud Stack meets the high security requirements
+of the <a href="https://www.bsi.bund.de/EN/Home">German Federal Office for Information Security (BSI)</a>.</p>
+
+<p>By participating in the working groups of <a href="https://www.gaia-x.eu/">Gaia-X</a> and
+the <a href="https://www.cio.bund.de/Web/DE/Innovative-Vorhaben/Deutsche-Verwaltungscloud-Strategie/deutsche_verwaltungscloud_strategie_node.html">Deutsche Verwaltungscloud-Strategie (DVS)</a> 
+the Sovereign Cloud Stack project ensures that the project’s jointly developed
+standards and reference implementation also meet the requirements from these key
+initiatives. The Sovereign Cloud Stack thus forms not only a technical foundation
+for Gaia-X compliant infrastructure, but also for a resilient, federatable public
+sector cloud.</p>
+
+<p>The key points for Release 3, due in the fall of 2022, will be the completion of the
+disk encryption feature, the expansion of federation capabilities, and the development
+of fully automated SCS conformance tests. The latter are intended to enable already
+established cloud service providers to adapt and validate their own offerings to the
+established SCS standards.</p>
+
+<p>The goal of Sovereign Cloud Stack is to develop a fully open-source toolkit for
+sovereign, standardized cloud &amp; container infrastructure. Consumers of such
+infrastructure can thus painlessly manage services across multiple SCS-compliant
+offerings.</p>
+
+<blockquote><p>
+Through open source, open standards, and
+an open development process, Sovereign Cloud Stack makes an important contribution
+to minimize lock-in effects in the cloud business, creating freedom of choice and thus
+strengthening the progress of digitalization in Europe - with full control over
+technology and data.
+</p><cite>Peter Ganten, Chairman of the Board of the Open Source Business Alliance e.V.</cite>
+</blockquote>
+
+<h2 id="technical-highlights-in-scs-release-2">Technical highlights in SCS Release 2</h2>
+
+<p>In detail, the following technical highlights, among others, were realized with Release 2:</p>
+
+<ul>
+  <li>
+    <p>Update of core components to OpenStack Xena, OSISM 3.0.0, and Kubernetes Cluster
+API 1.0.x with added support for Kubernetes 1.22 and 1.23.</p>
+  </li>
+  <li>
+    <p>Automation of bare metal deployment has been massively extended. The configuration
+of the components is now managed by NetBox as central source of truth. This means
+that setups with a high number of machines can be deployed with a manageable
+operational effort.</p>
+  </li>
+  <li>
+    <p>The Kubernetes Cluster API-based automation for managing Kubernetes clusters is
+now designed to manage many differently configured clusters. Clusters can now be
+created in different projects and availability zones and are also independent of
+each other’s configuration. This allows for different Kubernetes versions, different
+network integration (CNI), different numbers and flavors of machines as well as an
+independent selection of standard services. The configuration can be maintained in a
+git repository.</p>
+  </li>
+  <li>
+    <p>Standard services within Kubernetes container management have been extended by
+flux (gitops) and cert-manager (certificate management), the ingress-nginx has
+been enhanced and cilium can now be used instead of calico for the
+cluster network integration.
+DevOps teams thus do not have to worry about integration of these components.</p>
+  </li>
+  <li>
+    <p>The quality of our stack is constantly assured by conformance tests
+of the Cloud Native Computing Foundation and the Open Infrastructure Foundation.</p>
+  </li>
+  <li>
+    <p>The SCS standards for image metadata and machine flavor naming published with
+Release 1 have been fully implemented. Thus, it is easier to develop automated
+installations (Infrastructure-as-Code) without having to deal with numerous
+little differences for different cloud offerings.</p>
+  </li>
+  <li>
+    <p>The required components to connect to the Gaia-X Federation Services (GXFS)
+have been completed. The Gaia-X Federation Services will allow to connect the
+various Gaia-X services. Thus, a very important milestone of SCS for Gaia-X has
+been reached.</p>
+  </li>
+</ul>
+
+<p>The <a href="https://github.com/SovereignCloudStack/Docs/blob/main/Release-Notes/Release2.md">full release notes</a>
+will be available on GitHub at <a href="https://github.com/SovereignCloudStack/Docs/">https://github.com/SovereignCloudStack/Docs/</a>
+as of Wednesday.</p>
+
+<h2 id="about-sovereign-cloud-stack">About Sovereign Cloud Stack</h2>
+
+<p>The Sovereign Cloud Stack (SCS) was launched in 2019 and initially funded by the
+Federal Agency for Disruptive Innovations - SPRIND. Since July 2021, SCS is a
+project of the Open Source Business Alliance and receives funding by the German
+Federal Ministry for Economic Affairs and Climate Action (BMWK, formerly BMWi).
+A growing community of more than 20 companies contribute to the success of Sovereign
+Cloud Stack. By joining forces, standards for a modern, federatable open source
+cloud and container platform are defined and implemented by using proven open source
+components. At the same time, operational knowledge and <nobr>practices</nobr> are
+transparently shared to minimize the difficulty of delivering high-quality and secure
+cloud offerings. Two (soon three) providers are already using SCS in production
+environments to offer public cloud services. Further setups are in the development
+and testing phases.</p>
+
+<h2 id="about-the-open-source-business-alliance-osb-alliance">About the Open Source Business Alliance (OSB Alliance)</h2>
+
+<p>The Open Source Business Alliance (OSB Alliance) is the association of the open
+source industry in Germany. We represent over 170 member companies that employ
+approximately 10,000 people and generate more than 1.7 billion euros annually
+in Germany. Together with scientific institutions and user organisations, we
+are committed to sustainably anchoring the central importance of open source
+software and open standards for a successful digital transformation in the
+public awareness. This digital transformation should benefit companies, the
+state and society alike. In addition, innovations in the field of open source
+should be promoted. Our goal is to establish open source as the standard in
+public procurement and in research and business promotion. After all, open
+source and open standards are essential foundations for digital sovereignty,
+innovative capacity and security in the digital transformation and thus the
+answer to one of the greatest challenges of our time.</p>
+
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container text-light bg-dark">
+    <div class="row">
+      <div class="col-lg-5">
+        <a href="#" class="footer-site-logo">
+          <img src="/assets/images/SCS_short.svg" alt="Sovereign Cloud Stack" class="img-fluid mb-2">
+        </a>
+        <p class="small my-1">Sovereign Cloud Stack, SCS and the logo are registered trademarks of the Open Source Business Alliance e.V. — Other trademarks are property of their respective owners.</p>
+        <ul class="list-inline mt-2 mb-1">
+          
+          <li class="list-inline-item small me-sm-4 me-3">
+            <i class="text-light fa fa-phone me-1"></i> <a class="text-light text-decoration-none" href="tel:+49-30-300149-3377" title="+49-30-300149-3377">+49-30-300149-3377</a>
+          </li>
+          
+          <li class="list-inline-item small me-sm-4 me-3">
+            <i class="text-light fa fa-envelope me-1"></i> <a class="text-light text-decoration-none" href="mailto:project@scs.sovereignit.de" title="project[at]scs.sovereignit.de">project[at]scs.sovereignit.de</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-7">
+        <ul class="list-inline text-lg-end mt-1 mb-1">
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://twitter.com/scs_osballiance">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-twitter fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://fosstodon.org/@sovereigncloudstack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-mastodon fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://www.linkedin.com/showcase/sovereigncloudstack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-linkedin-square fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://github.com/SovereignCloudStack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-github fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://matrix.to/#/!TiDqlLmEUaXqTemaLc:matrix.org?via=matrix.org">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-matrix-org fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://scs.sovereignit.de/mailman3/postorius/lists/announce.lists.scs.community/">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-bullhorn fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="/feed.xml">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-rss fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+        </ul>
+        <ul class="list-inline text-lg-end mt-2">
+          
+          <li class="list-inline-item me-2 ms-lg-2">
+            <a class="text-light text-decoration-none" title="Imprint" href="/imprint/">Imprint</a>
+          </li>
+          
+          <li class="list-inline-item me-2 ms-lg-2">
+            <a class="text-light text-decoration-none" title="Data Protection Statement" href="/dataprotection/">Data Protection Statement</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+</footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Lighbox -->
+  <script type="text/javascript" src="/assets/vendor/lightbox.js"></script>
+  <link rel="stylesheet" href="/assets/css/lightbox.css">
+</body>
+
+</html>

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Sovereign Cloud Stack Security Advisory dirty pipe" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The vulnerability" />
+<meta property="og:description" content="The vulnerability" />
+<link rel="canonical" href="https://scs.community/security/2022/03/07/advisory-dirty-pipe/" />
+<meta property="og:url" content="https://scs.community/security/2022/03/07/advisory-dirty-pipe/" />
+<meta property="og:site_name" content="Sovereign Cloud Stack" />
+<meta property="og:image" content="https://scs.community/assets/images/blog/pipe.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-07T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://scs.community/assets/images/blog/pipe.jpg" />
+<meta property="twitter:title" content="Sovereign Cloud Stack Security Advisory dirty pipe" />
+<meta name="twitter:site" content="@scs_osballiance" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-05-19T09:53:48+00:00","datePublished":"2022-03-07T00:00:00+00:00","description":"The vulnerability","headline":"Sovereign Cloud Stack Security Advisory dirty pipe","image":"https://scs.community/assets/images/blog/pipe.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://scs.community/security/2022/03/07/advisory-dirty-pipe/"},"url":"https://scs.community/security/2022/03/07/advisory-dirty-pipe/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <title>Sovereign Cloud Stack Security Advisory dirty pipe | Sovereign Cloud Stack</title>
+  <meta property="og:title" content="Sovereign Cloud Stack Security Advisory dirty pipe | Sovereign Cloud Stack">
+
+  <!-- Matomo -->
+  <script>
+    if (typeof(Storage) !== 'undefined') {
+    	if (localStorage.getItem('matomoTrackingEnabled') === null) {
+    		localStorage.setItem('matomoTrackingEnabled', 'true');
+    	}
+    }
+  </script>
+  <script>
+    if (localStorage.getItem('matomoTrackingEnabled') !== 'false') {
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['disableCookies']);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.scs.community/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" color="#50c3a5" href="/safari-pinned-tab.svg" />
+  <meta name="msapplication-TileColor" content="#50c3a5">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+  <div class="container align-items-start">
+    <div class="d-lg-flex flex-row flex-fill align-items-end">
+      <button
+        class="navbar-toggler me-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/">
+                Home
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Discover SCS
+              </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <li><a class="dropdown-item" href="/about/">About SCS</a></li>
+                  
+                    <li><a class="dropdown-item" href="/use/">Use SCS</a></li>
+                  
+                    <li><a class="dropdown-item" href="/community/">Our community</a></li>
+                  
+              </ul>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/news/">
+                News
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/jobs/">
+                Open positions
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/tenders/">
+                Public tenders
+              </a>
+            
+          </li>
+          
+        </ul>
+        <ul class="navbar-nav flex-row align-content-end">
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://twitter.com/scs_osballiance">
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://fosstodon.org/@sovereigncloudstack">
+              <i class="fa fa-mastodon fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://www.linkedin.com/showcase/sovereigncloudstack">
+              <i class="fa fa-linkedin-square fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://github.com/SovereignCloudStack">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://matrix.to/#/!TiDqlLmEUaXqTemaLc:matrix.org?via=matrix.org">
+              <i class="fa fa-matrix-org fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://scs.sovereignit.de/mailman3/postorius/lists/announce.lists.scs.community/">
+              <i class="fa fa-bullhorn"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="/feed.xml">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="d-none d-lg-block">
+        <ul class="navbar-nav flex-row">
+  <li class="nav-item my-auto ms-4 ms-lg-2">
+    <a class="nav-link fw-bold  text-decoration-underline  " href="/security/2022/03/07/advisory-dirty-pipe/">EN</a>
+  </li>
+  <li class="nav-item my-auto mx-2 mx-lg-0">
+    <span class="nav-link px-0">/</span>
+  </li>
+  <li clas="nav-item my-auto">
+    <a class="nav-link fw-bold  " href="/de/security/2022/03/07/advisory-dirty-pipe/">DE</a>
+  </li>
+</ul>
+      </div>
+    </div>
+    <div class="d-lg-none">
+      <ul class="navbar-nav flex-row">
+  <li class="nav-item my-auto ms-4 ms-lg-2">
+    <a class="nav-link fw-bold  text-decoration-underline  " href="/security/2022/03/07/advisory-dirty-pipe/">EN</a>
+  </li>
+  <li class="nav-item my-auto mx-2 mx-lg-0">
+    <span class="nav-link px-0">/</span>
+  </li>
+  <li clas="nav-item my-auto">
+    <a class="nav-link fw-bold  " href="/de/security/2022/03/07/advisory-dirty-pipe/">DE</a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+ <!-- Header -->
+<header class="bg-white py-2 mb-2">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-6 pe-lg-4">
+        <div class="mt-5 mb-3">
+           <img src="/assets/images/SCS_horizontal.svg" alt="Sovereign Cloud Stack" width="50%" class="img-fluid">  
+        </div>
+        <p class="lead text-black-50 mb-lg-3">
+          Sovereign Cloud Stack (SCS) is federated cloud technology built entirely with Open Source Software — putting users and providers in control.
+        </p>
+      </div>
+      <div class="col-lg-6 text-lg-end text-nowrap my-auto">
+        <a href="https://osb-alliance.com" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-osba.svg" alt="Open Source Business Alliance" width="25%" class="img-fluid">
+        </a>
+        <a href="https://bmwk.de" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-bmwk-funded.svg" alt="Bundesministerium für Wirtschaft und Klimaschutz" width="25%" class="img-fluid ms-5">
+        </a>
+        <a href="https://gaia-x.eu" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-gaiax.svg" alt="Gaia-X" width="30%" class="img-fluid ms-3">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    
+<div class="d-flex w-100 flex-column mb-3">
+	<h1 class="pb-1 mb-0"><small>Sovereign Cloud Stack Security Advisory dirty pipe</small></h1>
+	<div class="d-flex w-100 flex-row">
+		<div style="max-width: 80px; max-height: 80px;" class="rounded-3 overflow-hidden ratio ratio-1x1">
+			<div style="max-width: 80px; max-height: 80px;" class="overflow-hidden ratio ratio-1x1">
+3
+
+  <svg>
+    <mask id="cut-three-1">
+      <circle cx="40" cy="40" r="40" fill="white"/>
+      <polygon points="40,0 80,0 80,80 0,80 0,60 40,40" fill="black" stroke="black" stroke-width="2"/>
+    </mask>
+    <mask id="cut-three-2">
+      <circle cx="40" cy="40" r="40" fill="white"/>
+      <polygon points="0,0 40,0 40,40 80,60 80,80 0,80" fill="black" stroke="black" stroke-width="2"/>
+    </mask>
+    <mask id="cut-three-3">
+      <circle cx="40" cy="40" r="40" fill="white"/>
+      <polygon points="0,0 80,0 80,60 40,40 0,60" fill="black" stroke="black" stroke-width="2"/>
+    </mask>
+    <image x="-10" y="-5" height="65" width="65" xlink:href="/assets/images/CB.png" mask="url(#cut-three-1)"></image>
+    <image x="30" y="-5" height="65" width="65" xlink:href="/assets/images/kgarloff.jpg" mask="url(#cut-three-2)"></image>
+    <image x="5" y="30" height="70" width="70" xlink:href="/assets/images/fkr.jpg" mask="url(#cut-three-3)"></image>
+  </svg>
+
+</div>
+		</div>
+		<div class="d-flex w-100 flex-column ms-3 my-auto">
+			<small class="mb-1 fw-bolder">Christian Berendt, Kurt Garloff, Felix Kronlage-Dammers</small>
+			<small>
+	March 07, 2022
+
+</small>
+		</div>
+	</div>
+</div>
+
+<h2 id="the-vulnerability">The vulnerability</h2>
+
+<p>On Fri, 2022-03-07, a failure in the Linux kernel code to properly initialize
+the flags field of pipe buffers became widely known as “dirty pipe” 
+(<a href="https://seclists.org/oss-sec/2022/q1/170">CVE-2022-0847</a>).
+The issue had been discovered and responsibly disclosed by Max Kellermann
+from IONOS SE.
+The bug allows any local user on a system to overwrite data in any file
+regardless of permissions and thus creates a trivial local root exploit.
+Even the page cache of read-only mappings can be overwritten (not leaving
+any traces on persistent storage).</p>
+
+<p>The issue was exposed (not introduced) by kernel commit 
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f6dd975583bd8ce088400648fd9819e4691c8958">f6dd975583bd</a>
+and affects Linux kernels 5.8 and newer. It was fixed with commit
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9d2231c5d74e13b2a0546fee6737ee4446017903">9d2231c5d74e</a>
+and is also addressed in the stable kernels 5.16.11, 
+5.15.25 and 5.10.102.</p>
+
+<p>More details can be found on <a href="https://dirtypipe.cm4all.com/">https://dirtypipe.cm4all.com/</a>.</p>
+
+<h2 id="scs-reference-implementation">SCS reference implementation</h2>
+
+<p>The host images in the SCS reference implementation come from the 
+<a href="https://osism.tech">OSISM</a> project and are all built on top of 
+Ubuntu 20.04 LTS. To the best of our knowledge, the 5.4.xxx kernels
+used there are NOT affected by the issue. The exploit code fails to
+alter the page cache there. We are waiting
+to get an <a href="https://ubuntu.com/security/CVE-2022-0847">official announcement</a>
+from Canonical for a final confirmation.</p>
+
+<p>The management host deployed by the automation for our cluster management is
+using an Ubuntu 20.04 LTS image by default – it is thus not affected.
+We use cluster-api images for the kubernetes clusters provided by
+<a href="https://minio.services.osism.tech/openstack-k8s-capi-images">OSISM</a>. These
+are built on top of Ubuntu 20.04 LTS and thus not affected either.</p>
+
+<p>Cloud operators often provide popular Linux images as a convenience
+for their customers. These are not provided by SCS.
+Some of these Linux images are affected, e.g. newer non-LTS versions of Ubuntu,
+Fedora or Arch Linux. These should be updated to support the customers
+in protecting their VMs.</p>
+
+<h2 id="mitigation-and-fix">Mitigation and fix</h2>
+
+<p>At this time, for cloud providers using the SCS reference implementation,
+we see no required actions to protect the infrastructure, as the SCS reference
+implementation does not use any images that use the affected kernels.</p>
+
+<p>We recommend SCS operators to double check that no supporting system uses
+a vulnerable kernel. Furthermore, operators may have chosen newer kernels
+(e.g. the hardware enablement series from Ubuntu) due to specific hardware
+requirements. In both cases, we recommend a short-term risk assessment and
+the scheduling of the installation of fixed kernels.</p>
+
+<p>Most cloud operators provide images for the most popular Linux operating
+systems. We strongly recommend to replace them with updated images as soon
+as the Linux distributors have provided updated base images (which is
+the case for many distributors at this point).
+Note that SCS has defined <a href="https://github.com/SovereignCloudStack/Docs/blob/main/Design-Docs/Image-Properties-Spec.md">metadata</a>
+for images that allow users to see the build date. Any image that’s older than
+2022-02-21 and has a Linux kernel version &gt;= 5.8 will very likely
+be vulnerable.</p>
+
+<h2 id="note">Note</h2>
+
+<p>We are in fact lucky that the Sovereign Cloud Stack reference implementation
+is not affected by this high-risk vulnerability. Avoiding too many different
+Linux distributions and choosing a version with good long-term support were
+deliberate choices, but of course these are no guarantee to not be affected.
+They intended to ensure we can react quickly and effectively if affected.</p>
+
+<p>Images are built and tested nightly in the OSISM infrastructure; we would have
+pushed out new images within a day if we had been affected, so we have prepared
+to react to issues like this. We will however use the opportunity to double-check
+that our reactions would have worked.</p>
+
+<h2 id="sovereign-cloud-stack-security-contact">Sovereign Cloud Stack Security Contact</h2>
+
+<p>SCS security contact is <a href="mailto:security@scs.community">security@scs.community</a>, as published on
+<a href="https://scs.community/.well-known/security.txt">https://scs.community/.well-known/security.txt</a>.</p>
+
+<h2 id="version-history">Version history</h2>
+
+<ul>
+  <li>Initial release on 2022-03-07, 23:00 CET.</li>
+</ul>
+
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container text-light bg-dark">
+    <div class="row">
+      <div class="col-lg-5">
+        <a href="#" class="footer-site-logo">
+          <img src="/assets/images/SCS_short.svg" alt="Sovereign Cloud Stack" class="img-fluid mb-2">
+        </a>
+        <p class="small my-1">Sovereign Cloud Stack, SCS and the logo are registered trademarks of the Open Source Business Alliance e.V. — Other trademarks are property of their respective owners.</p>
+        <ul class="list-inline mt-2 mb-1">
+          
+          <li class="list-inline-item small me-sm-4 me-3">
+            <i class="text-light fa fa-phone me-1"></i> <a class="text-light text-decoration-none" href="tel:+49-30-300149-3377" title="+49-30-300149-3377">+49-30-300149-3377</a>
+          </li>
+          
+          <li class="list-inline-item small me-sm-4 me-3">
+            <i class="text-light fa fa-envelope me-1"></i> <a class="text-light text-decoration-none" href="mailto:project@scs.sovereignit.de" title="project[at]scs.sovereignit.de">project[at]scs.sovereignit.de</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-7">
+        <ul class="list-inline text-lg-end mt-1 mb-1">
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://twitter.com/scs_osballiance">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-twitter fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://fosstodon.org/@sovereigncloudstack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-mastodon fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://www.linkedin.com/showcase/sovereigncloudstack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-linkedin-square fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://github.com/SovereignCloudStack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-github fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://matrix.to/#/!TiDqlLmEUaXqTemaLc:matrix.org?via=matrix.org">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-matrix-org fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://scs.sovereignit.de/mailman3/postorius/lists/announce.lists.scs.community/">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-bullhorn fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="/feed.xml">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-rss fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+        </ul>
+        <ul class="list-inline text-lg-end mt-2">
+          
+          <li class="list-inline-item me-2 ms-lg-2">
+            <a class="text-light text-decoration-none" title="Imprint" href="/imprint/">Imprint</a>
+          </li>
+          
+          <li class="list-inline-item me-2 ms-lg-2">
+            <a class="text-light text-decoration-none" title="Data Protection Statement" href="/dataprotection/">Data Protection Statement</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+</footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Lighbox -->
+  <script type="text/javascript" src="/assets/vendor/lightbox.js"></script>
+  <link rel="stylesheet" href="/assets/css/lightbox.css">
+</body>
+
+</html>

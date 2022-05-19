@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de"><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://scs.community/feed.xml" rel="self" type="application/atom+xml" /><link href="https://scs.community/" rel="alternate" type="text/html" hreflang="de" /><updated>2022-05-19T09:56:53+00:00</updated><id>https://scs.community/feed.xml</id><title type="html">Sovereign Cloud Stack</title><subtitle>Sovereign Cloud Stack (SCS) is a network of existing and future providers of standardized sovereign cloud and container infrastructure to join forces in defining, implementing and operating a fully open, federated, compatible platform. By joining forces, the platform can support a healthy ecosystem for service and application developers and strengthen the digitalization efforts in Europe without creating large risks to lose control over the technology and the data.</subtitle><entry><title type="html">SCS Community Part of Cloud Expo Europe in Frankfurt</title><link href="https://scs.community/2022/05/13/syself-jkemper-cee2022/" rel="alternate" type="text/html" title="SCS Community Part of Cloud Expo Europe in Frankfurt" /><published>2022-05-13T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/2022/05/13/syself-jkemper-cee2022</id><content type="html" xml:base="https://scs.community/2022/05/13/syself-jkemper-cee2022/"><![CDATA[<p>Many members of SCS team and community gathered at <a href="https://www.cloudexpoeurope.de">Cloud Expo Europe</a> in Frankfurt. As my company, Syself, joined the community only a few months ago, we have not seen anybody in person before. For us, the CEE was not only about listening to interesting talks and meeting new people.</p>
+
+<p>It was also about finally talking to the other members of the SCS community in person. We have worked together a lot in the past weeks using video conferences, but seeing someone in person is a whole different thing. I am sure that many people can relate to that after more than two years of the pandemic.</p>
+
+<h2 id="team-building-in-frankfurt">Team Building in Frankfurt</h2>
+
+<p>A lot has happened in the SCS community, so there were many current and future projects to discuss. Fortunately, the expo and the evening/night program brought plenty of opportunities to talk about SCS business and even left room for personal stuff.</p>
+
+<p>In order to get to know each other better and to grow as a team, we had a really nice dinner at an Indian restaurant. Some team members spotted an Irish pub in which we went for some alcoholic and non-alcoholic drinks afterwards.</p>
+
+<h2 id="sovereign-clouds-play-a-major-role-at-cee">Sovereign Clouds Play a Major Role at CEE</h2>
+
+<p>At <a href="https://syself.com">Syself</a>, we focus on modern, European cloud infrastructure that can be managed easily by our clients. In the earlier stages of our company, we did not even know about the theoretic concept of digital sovereignty. However, the products that we build for our clients have always been fully aligned behind this concept.</p>
+
+<p>The CEE showed us that we are not at all alone. There are a lot of companies and projects that aim for European IT infrastructure where end users are truly sovereign. It is great that many of them are collaborating in projects like SCS or GAIA-X.</p>
+
+<p><a href="https://www.cloudexpoeurope.de/konferenzprogramm-2022/multi-cloud-needs-a-german-foothold-data-sovereignty-is-business-critical">Alexander Wallner</a> and Christian Berendt (<a href="https://www.cloudexpoeurope.de/konferenzprogramm-2022/session-delivered-by-b1-systems">here</a> and <a href="https://www.cloudexpoeurope.de/konferenzprogramm-2022/session-delivered-by-b1-systems-1">here</a>) from Plusserver and OSISM - the two companies who run the SCS-based commercial cloud services Pluscloud Open and Betacloud - indicated in their talks the importance of SCS in the European cloud world. They stressed the importance of open-source, of active collaboration between cloud providers, and modern IT infrastructure.</p>
+
+<div class="row my-2">
+  <div class="col-sm-6 col-12">
+    <figure class="figure mx-auto d-block">
+      <a href="/assets/images/blog/cee2022-ganten.jpeg">
+        <img src="/assets/images/blog/cee2022-ganten.jpeg" class="figure-img w-100" />
+      </a>
+      <figcaption class="figure-caption text-end">Kurt Garloff, CTO Sovereign Cloud Stack</figcaption>
+    </figure>
+  </div>
+  <div class="col-sm-6 col-12">
+    <figure class="figure mx-auto d-block">
+      <a href="/assets/images/blog/cee2022-garloff.jpeg">
+        <img src="/assets/images/blog/cee2022-garloff.jpeg" class="figure-img w-100" />
+      </a>
+      <figcaption class="figure-caption text-end">Peter Ganten, Chairman of The Board - Open Source Business Alliance e.V.</figcaption>
+    </figure>
+  </div>
+</div>
+
+<p>The talks of <a href="/assets/slides/20220511-SCS-CEE.pdf">Kurt Garloff</a> and <a href="/assets/slides/20220512-OSBA-CEE.pdf">Peter Ganten</a> from the OSBA and SCS were inspiring to me. They formulated many thoughts I had in my head already and put them down in a structured manner on their slides.</p>
+
+<p>Among others, they pointed out the different dimensions of a sovereign cloud and the importance of it. I am sure that we can use these ideas in projects of both the SCS community and Syself.</p>
+
+<h2 id="sovereign-clouds-are-not-only-a-theoretic-concept">Sovereign Clouds Are Not Only a Theoretic Concept</h2>
+
+<p>The collaboration of SCS with <a href="https://international.eco.de">Eco</a>, the association of the German Internet industry, was another major topic.</p>
+
+<p>Kurt Garloff mentioned in his speech that the cluster infrastructure for the testing and staging environments of the Gaia-X Federation Services will be on SCS infrastructure. The CEE provided room for meetings where the details of this project were discussed.</p>]]></content><author><name>[&quot;Janis Kemper&quot;]</name></author><summary type="html"><![CDATA[Many members of SCS team and community gathered at Cloud Expo Europe in Frankfurt. As my company, Syself, joined the community only a few months ago, we have not seen anybody in person before. For us, the CEE was not only about listening to interesting talks and meeting new people.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/cee2022-ganten.jpeg" /><media:content medium="image" url="https://scs.community/assets/images/blog/cee2022-ganten.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Moving to GitHub Projects</title><link href="https://scs.community/tech/2022/04/07/github-projects/" rel="alternate" type="text/html" title="Moving to GitHub Projects" /><published>2022-04-07T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/tech/2022/04/07/github-projects</id><content type="html" xml:base="https://scs.community/tech/2022/04/07/github-projects/"><![CDATA[<p>Community,</p>
+
+<p>we’ve had a great time planning <a href="https://scs.community/release/2022/03/22/release2/">our third release</a>
+with <a href="https://wekan.github.io/">Wekan</a>, but now it’s time to say goodbye and break apart. 💔</p>
+
+<p>It’s not your fault, Wekan – but we need to lower the bar informing about or contributing to SCS. 
+A repeated criticism during the past team’s retrospectives was the fragmentation of
+the tools we use within our community. You’re all absolutely right and we urgently have
+to fix this.</p>
+
+<p>For this reason, we decided to give GitHub’s new projects experience a try and bundle our developing
+efforts on one single platform. This provides our contributors and guests with a
+single point of entry and at the same time enhances the transparency and accessibility
+of our project.</p>
+
+<h2 id="github-projects">GitHub Projects</h2>
+
+<p>The new projects experience is still considered beta, but proves to be quite
+stable in our tests. Check out the <a href="https://docs.github.com/en/issues/trying-out-the-new-projects-experience">documentation</a>
+for further information on how to use this new feature.</p>
+
+<figure class="figure mx-auto d-block" style="width:70%">
+  <a href="/assets/images/blog/gh-projects-1.png">
+    <img src="/assets/images/blog/gh-projects-1.png" class="figure-img w-100" />
+  </a>
+</figure>
+
+<p>Our release planning board can be found on the <a href="https://github.com/SovereignCloudStack">top organization level</a>
+and can be reached via the <a href="https://github.com/orgs/SovereignCloudStack/projects?type=beta">“Projects” tab</a>.
+The <a href="https://github.com/orgs/SovereignCloudStack/projects/6">“Sovereign Cloud Stack R3” project</a>
+is publicly available and can be modified by every <a href="https://github.com/orgs/SovereignCloudStack/people">member of our Sovereign Cloud Stack organization</a>.</p>
+
+<h2 id="reactivating-the-issues-repository">Reactivating the <code class="language-plaintext highlighter-rouge">issues</code> repository</h2>
+
+<p>Technically, every item in a GitHub project is an issue in one of the organization’s repositories.
+Should an user story not be directly assignable to one of our code repositories, we decided to
+use the <a href="https://github.com/SovereignCloudStack/issues">issues repository</a> for this.</p>
+
+<p>To keep track in our new board, we have created <a href="https://github.com/SovereignCloudStack/issues/labels">different labels</a>.
+This allows us to use view filters and, in the future, to automate workflows.</p>
+
+<p>Due to <a href="https://github.com/SovereignCloudStack/github-permissions/pull/12">Tim’s efforts</a> we
+can easily manage these labels in a <code class="language-plaintext highlighter-rouge">git</code> repository and apply them to all of our repositories.
+Thank you very much for this contribution!</p>
+
+<p>In addition, we have created <a href="https://github.com/SovereignCloudStack/issues/tree/main/.github/ISSUE_TEMPLATE">several issue templates</a>
+to help you create new issues. The <a href="https://github.com/SovereignCloudStack/issues/blob/main/.github/ISSUE_TEMPLATE/standard-user-story.md">template for new user stories</a>
+has been extended by a first draft for a common Definition of Ready (DoR) and
+Definition of Done (DoD). Feel free to open pull requests against this template if
+you think that we’ve missed an important item in these lists.</p>
+
+<figure class="figure mx-auto d-block" style="width:70%">
+  <a href="/assets/images/blog/gh-projects-2.png">
+    <img src="/assets/images/blog/gh-projects-2.png" class="figure-img w-100" />
+  </a>
+</figure>
+
+<h2 id="tldr">tl;dr</h2>
+
+<p>Please consider the following steps while creating a new user story for R3:</p>
+
+<ul>
+  <li>Open the issue in the <code class="language-plaintext highlighter-rouge">issues</code> repository if the user story should not be directly assignable to
+any other SCS repository.</li>
+  <li>Choose the “Standard User Story” template.</li>
+  <li>Add the label <code class="language-plaintext highlighter-rouge">IaaS</code>, <code class="language-plaintext highlighter-rouge">Container</code> or <code class="language-plaintext highlighter-rouge">Ops</code> according to responsible team.</li>
+  <li>Add the issue to the “Sovereign Cloud Stack R3” project.</li>
+  <li>Add the <code class="language-plaintext highlighter-rouge">v4.0.0</code> Milestone.</li>
+</ul>
+
+<p>Have a look at our <a href="https://github.com/SovereignCloudStack/issues/issues/16">first user story for R3</a>
+and feel free to use it as a blueprint for all of your great ideas. We’ll be using the
+team meetings during the next weeks to have a look at the unfinished user stories
+in our <a href="https://ms.scs.sovereignit.de/wekan">Wekan</a> and move them <em>manually</em> to GitHub.
+We have consciously decided against an automatic transfer, in order to use this opportunity
+to check the old user stories again and to refine them if necessary. We are looking
+forward to the upcoming sessions with you!</p>]]></content><author><name>[&quot;Eduard Itrich&quot;]</name></author><category term="tech" /><summary type="html"><![CDATA[Community,]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/github.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/github.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Das Fundament von Gaia-X bleibt stabil</title><link href="https://scs.community/2022/03/31/future-of-gaiax/" rel="alternate" type="text/html" title="Das Fundament von Gaia-X bleibt stabil" /><published>2022-03-31T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/2022/03/31/future-of-gaiax</id><content type="html" xml:base="https://scs.community/2022/03/31/future-of-gaiax/"><![CDATA[<p>Die jüngste Berichterstattung zur ausbleibenden Förderung von fünf weiteren Gaia-X-Projekten
+hat in der öffentlichen Wahrnehmung zur Verunsicherung über die Zukunft
+des gesamteuropäischen Vorhabens <a href="https://gaia-x.eu">Gaia-X</a> beigetragen.</p>
+
+<p><a href="https://gxfs.eu">Gaia-X Federation Services (GXFS)</a> und <a href="https://scs.community/">Sovereign Cloud Stack (SCS)</a>
+sind die grundlegenden Projekte für den Aufbau der Gaia-X Infrastruktur und beide
+Projekte sind nicht von einem Förderstopp oder Budgetkürzungen betroffen, sondern
+gehen mit voller Energie weiter. Neben diesen beiden grundlegenden Projekten
+sollten Projekte gefördert werden, die die geschaffenen Infrastruktur- und
+Datenökosysteme anwenden und konkreten Nutzen für Bereiche der Wirtschaft und/oder
+des öffentlichen Lebens schaffen.</p>
+
+<p>Bei einem Förderwettbewerb wurden hier aus sehr vielen Einreichungen 16 Projekte
+ausgewählt. Nach unserem Kenntnisstand sind die ersten 11 nicht von den Budgetkürzungen
+betroffen, die weiteren 5 allerdings schon. In diesen Projekten sollte Gaia-X nutzbar
+und sichtbar werden. Das wird nun nicht geschehen, was sehr bedauerlich ist.
+Aus unserer Sicht wird Gaia-X dadurch aber nicht insgesamt in Frage gestellt oder die Mission,
+Fortschritte für digitale Souveränität zu erreichen, aufgegeben.</p>
+
+<blockquote>
+<p>Sehr bedauerlich ist aus unserer Sicht aber auch die fehlende Finanzierung für den <a href="https://sovereigntechfund.de/">SovereignvTech Fund</a>
+und für das <a href="https://www.cio.bund.de/Web/DE/Innovative-Vorhaben/ZenDiS/zendis_node.html">Zentrum für Digitale Souveränität</a>,
+welches wichtige Beiträge sind, Open Source und seine Nutzbarmachung in der öffentlichen Verwaltung zu stärken und
+somit die digitale Souveränität ganz praktisch voranzubringen. Beide Initiativen
+sind schon fertig untersucht und vorbereitet und stehen in den Startlöchern.</p>
+<cite>Kurt Garloff, Co-Leader / CTO Sovereign Cloud Stack, Open Source Business Alliance – Bundesverband für digitale Souveränität e.V.</cite>
+</blockquote>
+
+<p>Zusammen ergibt sich bedauerlicherweise der Eindruck, dass den positiven Aussagen
+zu Digitalisierung und zur Strategie bzgl. digitaler Souveränität nur unzureichend Taten folgen. Die Konsequenzen sind
+leider bitter: Einige der zarten Pflänzchen, die geeignet erscheinen, Digitalisierung
+in der öffentlichen Verwaltung voranzubringen und dies mit Hilfe von Open-Source-Vorgehensweisen
+auf eine souveräne Art zu gestalten, würden damit leider verwelken,
+bevor sie wachsen konnten. Dies ist weder für die Digitalisierung noch für die
+Souveränität gut.</p>
+
+<p>Die Open Source Business Alliance – Bundesverband für digitale Souveränität e.V. 
+hat dazu auch einen <a href="https://osb-alliance.de/featured/offener-brief-digitale-souveraenitaet-im-bundeshaushalt-2022-beruecksichtigen">offenen Brief</a>
+veröffentlicht.</p>]]></content><author><name>Sovereign Cloud Stack</name></author><summary type="html"><![CDATA[Die jüngste Berichterstattung zur ausbleibenden Förderung von fünf weiteren Gaia-X-Projekten hat in der öffentlichen Wahrnehmung zur Verunsicherung über die Zukunft des gesamteuropäischen Vorhabens Gaia-X beigetragen.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/foundation.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/foundation.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Future directions - the road towards R3</title><link href="https://scs.community/tech/2022/03/23/r2-and-future-directions/" rel="alternate" type="text/html" title="Future directions - the road towards R3" /><published>2022-03-23T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/tech/2022/03/23/r2-and-future-directions</id><content type="html" xml:base="https://scs.community/tech/2022/03/23/r2-and-future-directions/"><![CDATA[<h2 id="welcome-release-2">Welcome Release 2</h2>
+
+<p>Today we’re <a href="https://github.com/SovereignCloudStack/Docs/blob/main/Release-Notes/Release2.md">releasing the R2</a> of the reference implementation of the Sovereign
+Cloud Stack. Our release announcement covers the many aspects of this release
+in detail. These range from our work on integrating the Kubernetes Cluster API,
+many improvements that focus on the operator experience up to items that help
+to assure standard conformance of clouds being built with SCS.</p>
+
+<p>Since SCS has a fixed release schedule - we release twice a year - and through
+all the lively discussions of the past weeks moving towards our R2 we already
+have ideas of things we want to cover in the R3 cycle.</p>
+
+<h2 id="reaching-out-to-the-community">Reaching out to the community</h2>
+
+<p>SCS builds on top of the interaction of community members - CSPs, operators
+of cloud infrastructure as well as integrators who either build or support the
+process of building cloud infrastructure.</p>
+
+<p>There is a proposal for a <a href="https://github.com/SovereignCloudStack/Docs/pull/47">gitops style cluster management</a>
+approach on the table.</p>
+
+<p>As part of our discussions in the last week around octavia we concluded that it
+makes sense to further invest into the topic of loadbalancing withing cloud
+infrastructure and see if the current status, not only concerning OpenStack, can 
+be improved.</p>
+
+<h2 id="federation-needs-to-happen">Federation needs to happen</h2>
+
+<p>In R2 we started to lay the groundwork for the federation. Within the R3 cycle
+we want to to document and validate (and probably enhance) the user federation
+capabilities which we have implemented with <a href="https://www.keycloak.org">keycloak</a> and OpenID Connect federation.</p>
+
+<h2 id="help-to-increase-velocity">Help to increase velocity…</h2>
+
+<p>One of the goals of SCS is to help operators gain more velocity with their
+cloud infrastructure. However this relies on intensive testing and excellent
+quality assurance. As part of this effort we have started to use <a href="https://zuul-ci.org">zuul</a> as CI
+framework and intend to make significant progress in connecting all the
+existing tests to it.</p>
+
+<h2 id="as-well-as-standard-compliance-and-observability">…as well as standard compliance and observability</h2>
+
+<p>Good and extensive testing, while being important, are not the only aspects
+of providing solid cloud infrastructure. We want to heavily invest in SCS
+conformance testing, allowing providers that differ significantly from our
+reference implementation to still adjust their platforms for full
+compatibility. With the work that is happening in the Special Interest
+Group (SIG) Monitoring we want to make sure operators have an in-depth
+view into their stack. This will range from reworking the <a href="https://github.com/SovereignCloudStack/openstack-health-monitor">OpenStack
+Health Monitor</a> to build upon existing components such as <a href="https://opendev.org/openstack/tempest/">tempest</a> and
+<a href="https://opendev.org/openstack/rally">rally</a> as well as making sure logs are aggregated and can be analyzed.</p>
+
+<h2 id="metering-and-billing">Metering and Billing</h2>
+
+<p>In the last months metering and billing were discussed within our community.
+It has become apparent that this is one of the topics where the SCS project can
+provide added value to the broader OpenStack community and this will be one of
+the items that will be followed upon in the next few months.</p>
+
+<h2 id="encrypt-all-the-things">Encrypt all the things</h2>
+
+<p>The scs community started to work on a disk encryption feature based on <a href="https://github.com/latchset/tang">tang</a>. We’ve
+seen first previews of it and a lightning talk covered this first preview. For R3
+we intend to complete the disk encryption feature.</p>
+
+<h2 id="join-the-discussion">Join the discussion</h2>
+
+<p>As with the last release we will dive into a short retrospective mode in the upcoming
+week. In our team sessions in the calendar week 13 we will focus on reviewing our
+collaboration of the last months and see what can be kept, improved, started or stopped. 
+While there are ideas out on what R3 should bring our community is invited to join the
+discussion and help to shape SCS so that it adds value to your cloud infrastructure.
+The team meetings in week 14 are dedicated to these topics.</p>
+
+<p>We invite our community to join the discussions in the corresponding team sessions.</p>]]></content><author><name>[&quot;Felix Kronlage-Dammers&quot;]</name></author><category term="tech" /><summary type="html"><![CDATA[Welcome Release 2]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/default-card.jpg" /><media:content medium="image" url="https://scs.community/assets/images/default-card.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">SCS Release 2 freigegeben</title><link href="https://scs.community/release/2022/03/22/release2/" rel="alternate" type="text/html" title="SCS Release 2 freigegeben" /><published>2022-03-22T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/release/2022/03/22/release2</id><content type="html" xml:base="https://scs.community/release/2022/03/22/release2/"><![CDATA[<p>Das vom <a href="https://bmwk.de">Bundesministerium für Wirtschaft und Klimaschutz</a>
+geförderte Sovereign Cloud Stack Projekt gibt zum 23. März 2022 die dritte Version R2
+der SCS Referenzimplementierung frei.
+Highlights des Release 2, zu dessen Erfolg mittlerweile eine Community aus über
+20 Unternehmen beiträgt, sind neben der Aktualisierung aller Open-Source-Komponenten
+und der erleichterten Installation auf der Hardware, der signifikanten Verbesserung
+der Verwaltung von Kubernetes Clustern
+insbesondere die realisierte Anschlussfähigkeit an die <a href="https://www.gxfs.eu/de/">Gaia-X Föderationsdienste (GXFS)</a>.</p>
+
+<p>Die in einem offenen Entwicklungsprozess implementierte Technologie des <a href="https://scs.community/de/">Sovereign
+Cloud Stack (SCS)</a> wird von einer wachsenden Anzahl an
+Unternehmen und IT-Dienstleistern des öffentlichen Sektors erprobt und bereits von
+zwei, in Kürze drei Public-Cloud-Anbietern produktiv betrieben. Die C5-Zertifizierung
+des Partners <a href="https://www.plusserver.com">PlusServer</a> belegen zudem, dass der Sovereign
+Cloud Stack auch den hohen Sicherheitsanforderungen des <a href="https://www.bsi.bund.de/DE">Bundesamt für Sicherheit in der Informationstechnik (BSI)</a>
+genügen.</p>
+
+<p>Durch die Mitarbeit in den Arbeitsgruppen von <a href="https://www.gaia-x.eu/">Gaia-X</a> und
+der <a href="https://www.cio.bund.de/Web/DE/Innovative-Vorhaben/Deutsche-Verwaltungscloud-Strategie/deutsche_verwaltungscloud_strategie_node.html">Deutschen Verwaltungscloud-Strategie (DVS)</a> 
+stellt das Sovereign Cloud Stack Projekt sicher, dass die gemeinsam entwickelten
+Standards und die Referenzimplementierung aus dem Projekt auch die Anforderungen
+aus diesen wichtigen Initiativen genügen. Der Sovereign Cloud Stack bildet somit
+nicht nur einen technischen Unterbau für Gaia-X-konforme Infrastruktur und Dienste,
+sondern auch für eine resiliente, föderierbare Cloud der öffentlichen Hand.</p>
+
+<p>Die Schwerpunkte des im Herbst 2022 anstehenden Release 3 sind der Abschluss der
+bisherigen Arbeiten zur Festplattenverschlüsselung, die Erweiterung der
+Föderationsmöglichkeiten sowie die Entwicklung von vollautomatischen SCS
+Konformitätstests. Letztere sollen bereits etablierten Cloud-Service-Providern
+ermöglichen, ihre eigenen Angebote an den von SCS entwickelten Standard anzupassen.</p>
+
+<p>Ziel des Sovereign Cloud Stack ist die Entwicklung eines Open-Source-basierten
+Werkzeugkastens für eine souveräne, standardisierte Cloud-Infrastruktur. Unternehmen
+erhalten dadurch die Möglichkeit, verteilte Cloud-Dienste über verschiedene SCS-konforme
+Angebote hinweg zu nutzen.</p>
+
+<blockquote><p>
+Durch Open Source, offene Standards und einen offenen
+Entwicklungsprozess leistet der Sovereign Cloud Stack einen wichtigen Beitrag zur
+Reduzierung von Lock-in-Effekten im Cloud-Bereich, schafft Wahlfreiheit und stärkt
+somit den Fortschritt der Digitalisierung in Europa — bei voller Kontrolle über
+Technologie und Daten.
+</p><cite>Peter Ganten, Vorstandsvorsitzender der Open Source Business Alliance e.V.</cite>
+</blockquote>
+
+<h2 id="technische-neuerungen-in-scs-release-2">Technische Neuerungen in SCS Release 2</h2>
+
+<p>Im Detail wurden mit Release 2 unter anderem die folgenden technischen Highlights realisiert:</p>
+
+<ul>
+  <li>
+    <p>Update der zentralen Komponenten auf OpenStack Xena, OSISM 3.0.0 sowie Kubernetes
+Cluster API 1.0.x mit Unterstützung für Kubernetes 1.22 und 1.23.</p>
+  </li>
+  <li>
+    <p>Die Automatisierung bei der Installation von Bare-Metal-Hardware wurde massiv
+ausgebaut. Die Konfiguration und Verwaltung der Komponenten erfolgt nun umfassend
+durch die Daten in der NetBox. Somit können auch Installationen mit einer
+vierstelligen Anzahl von Maschinen mit überschaubarem betrieblichen Aufwand
+installiert und verwaltet werden.</p>
+  </li>
+  <li>
+    <p>Die auf der Kubernetes Cluster-API basierende Automatisierung zur Verwaltung
+von Kubernetes Clustern ist nun darauf ausgelegt, viele unterschiedlich konfigurierte
+Cluster zu verwalten. Diese können nunmehr in unterschiedlichen Projekten sowie
+Verfügbarkeitszonen angelegt werden und sind auch in ihren sonstigen Einstellungen
+voneinander unabhängig. So können verschiedene Kubernetes Versionen, unterschiedliche
+Netzwerkintegration (CNI), verschiedene Anzahlen und Typen (Flavors) der Maschinen
+sowie eine unabhängige Auswahl der Standarddienste genutzt werden. Die Konfiguration
+wird hierbei in einem git Repository gepflegt.</p>
+  </li>
+  <li>
+    <p>Die Kubernetes Containerverwaltung wurde um Standarddienste für flux (gitops)
+und cert-manager (Zertifikatsmanagement) erweitert, der Ingress-nginx wurde
+verbessert und die Verwaltung bietet nun die Option, cilium statt calico als
+Netzwerkintegration zu nutzen. Hiermit sparen Anwender (DevOps Teams) Arbeit und
+müssen sich um die problemlose Integration nicht kümmern.</p>
+  </li>
+  <li>
+    <p>Die Qualität dieser Entwicklungen wird durch die ständig durchgeführten
+Konformitätstests der Cloud Native Computing Foundation und der Open Infrastructure
+Foundation abgesichert.</p>
+  </li>
+  <li>
+    <p>Die anlässlich des Release 1 veröffentlichten SCS-Standards zu Image-Metadaten
+und zur Benennung der Flavors für virtuelle Maschinen wurde umfassend umgesetzt.
+Somit ist es einfacher, automatisierte Installationen (Infrastructure-as-Code)
+umzusetzen, ohne im Detail eine Vielzahl von Unterschieden behandeln zu müssen.</p>
+  </li>
+  <li>
+    <p>Die Komponenten zur Nutzerföderierung, die für den Anschluss an die Gaia-X
+Federation Services (GXFS) notwendig sind, wurden fertiggestellt. Mit den Gaia-X
+Federation Services sollen die unterschiedlichen Gaia-X-Dienste verknüpft werden.
+Damit wurde ein ganz wesentlicher Meilenstein von SCS für Gaia-X erreicht.</p>
+  </li>
+</ul>
+
+<p>Die <a href="https://github.com/SovereignCloudStack/Docs/blob/main/Release-Notes/Release2.md">vollständigen Release Notes</a>
+sind ab Mittwoch auf GitHub unter
+<a href="https://github.com/SovereignCloudStack/Docs/">https://github.com/SovereignCloudStack/Docs/</a>
+zu finden.</p>
+
+<h2 id="über-das-sovereign-cloud-stack-projekt">Über das Sovereign Cloud Stack Projekt</h2>
+
+<p>Der Sovereign Cloud Stack (SCS) wurde 2019 ins Leben gerufen und zunächst mit Mitteln
+der Bundesagentur für Sprunginnovationen SPRIND finanziert. Seit Juli 2021 wird
+SCS durch das Bundesministerium für Wirtschaft und Klimaschutz (BMWK, früher BMWi)
+gefördert und ist bei der Open Source Business Alliance – Bundesverband für digitale
+Souveränität e.V. beheimatet. Inzwischen trägt ein wachsendes Ökosystem aus über
+20 Unternehmen zum Erfolg des Sovereign Cloud Stack bei. Gemeinsam werden offene
+Standards für eine moderne, föderierbare Open-Source-Cloud- und Container-Plattform
+definiert und in einem offenen Entwicklungsprozess durch bewährte Open-Source-Komponenten
+implementiert. Gleichzeitig werden Betriebswissen und <nobr>-praktiken</nobr> transparent
+zugänglich gemacht, um die Schwierigkeiten bei der Bereitstellung von qualitativ
+hochwertigen und sicheren Cloud-Diensten auf ein Minimum zu reduzieren. Bereits
+zwei, demnächst drei Anbieter nutzen die SCS-Technologie bereits produktiv für
+den Betrieb souveräner und DSGVO-konformer Public-Cloud-Angebote. Weitere Angebote
+befinden sich in der Entwicklungs- und Erprobungsphase.</p>
+
+<h2 id="über-die-open-source-business-alliance-osb-alliance">Über die Open Source Business Alliance (OSB Alliance)</h2>
+
+<p>Die Open Source Business Alliance (OSB Alliance) ist der Verband der Open Source Industrie
+in Deutschland. Dabei vertreten wir rund 170 Mitgliedsunternehmen, die in Deutschland ca.
+10.000 Mitarbeiter beschäftigen und jährlich mehr als 1,7 Milliarden Euro erwirtschaften.
+Gemeinsam mit wissenschaftlichen Einrichtungen und Anwenderorganisationen setzen wir uns
+dafür ein, die zentrale Bedeutung von Open Source Software und offenen Standards für einen
+erfolgreichen digitalen Wandel im öffentlichen Bewusstsein nachhaltig zu verankern. Dieser
+digitale Wandel soll Unternehmen, Staat und Gesellschaft gleicherweise zugutekommen. Zudem
+sollen Innovationen im Bereich Open Source vorangetrieben werden. Unser Ziel ist es, Open
+Source als Standard in der öffentlichen Beschaffung und bei der Forschungs- und Wirtschaftsförderung
+zu etablieren. Denn Open Source und offene Standards sind zwingende Grundlagen für digitale
+Souveränität, Innovationsfähigkeit und Sicherheit im digitalen Wandel und damit die Antwort
+auf eine der größten Herausforderungen unserer Zeit.</p>]]></content><author><name>Sovereign Cloud Stack</name></author><category term="release" /><summary type="html"><![CDATA[Das vom Bundesministerium für Wirtschaft und Klimaschutz geförderte Sovereign Cloud Stack Projekt gibt zum 23. März 2022 die dritte Version R2 der SCS Referenzimplementierung frei. Highlights des Release 2, zu dessen Erfolg mittlerweile eine Community aus über 20 Unternehmen beiträgt, sind neben der Aktualisierung aller Open-Source-Komponenten und der erleichterten Installation auf der Hardware, der signifikanten Verbesserung der Verwaltung von Kubernetes Clustern insbesondere die realisierte Anschlussfähigkeit an die Gaia-X Föderationsdienste (GXFS).]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/pile.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/pile.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Solidarität mit der Ukraine - Щодо війни в Україні</title><link href="https://scs.community/2022/03/21/solidarity/" rel="alternate" type="text/html" title="Solidarität mit der Ukraine - Щодо війни в Україні" /><published>2022-03-21T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/2022/03/21/solidarity</id><content type="html" xml:base="https://scs.community/2022/03/21/solidarity/"><![CDATA[<p><img src="/assets/images/blog/sunflowers.jpg" style="width:100%; max-height: 350px; object-fit: cover;}" /></p>
+
+<p>Війна російського уряду проти України – це злочинний напад на невід’ємні права людини, свободу, право на самовизначення та безпеку кожної людини в Україні та мир в Європі. Без свободи і миру наша робота також неможлива; Розвиток та інновації можливі лише в умовах мирної глобальної співпраці. Наші думки з нашими колегами в Україні та всіма, хто втік. (Google Translator)</p>
+
+<p>Der Krieg der russischen Regierung gegen die Ukraine ist ein verbrecherischer Angriff auf die unveräußerlichen Menschenrechte, auf die Freiheit, das Recht auf Selbstbestimmung und die Sicherheit jedes Menschen in der Ukraine und auf den Frieden in Europa. Ohne Freiheit und Frieden ist auch unsere Arbeit unmöglich; Entwicklung und Innovation sind nur in der friedlichen, weltumspannenden Zusammenarbeit möglich. Unsere Gedanken sind bei unseren Kolleg:innen in der Ukraine und all denen, die geflüchtet sind.</p>
+
+<p>Zahlreiche Menschen engagieren sich, um unseren ukrainischen Nachbar:innen zu helfen. Möchten auch Sie helfen? Hier finden Sie eine Auswahl an Initiativen:</p>
+
+<ul>
+  <li>Die OSB Alliance ist Mitglied des Bündnisses: <a href="https://alliance4ukraine.org/">https://alliance4ukraine.org/</a></li>
+  <li>Deutsche Plattform für private Unterkünfte: <a href="https://www.unterkunft-ukraine.de/">https://www.unterkunft-ukraine.de/</a></li>
+  <li>Mission Lifeline organisiert einen Konvoi für Flüchtende an der slowakisch-ukrainischen Grenze: <a href="https://mission-lifeline.de/ukraine">https://mission-lifeline.de/ukraine</a></li>
+  <li>Stellenbörse für aus der Ukraine Geflüchtete: <a href="https://www.jobaidukraine.com/">https://www.jobaidukraine.com/</a></li>
+  <li>Polish Humanitarian Action unseres Nachbarlandes: <a href="https://www.pah.org.pl/en/ukraine/">https://www.pah.org.pl/en/ukraine/</a></li>
+  <li>“The Kyiv Independent” berichtet in Englisch aus der Ukraine: <a href="https://www.gofundme.com/f/kyivindependent-launch">https://www.gofundme.com/f/kyivindependent-launch</a></li>
+  <li>Spendenkonto für Journalist:innen aus der Ukraine: <a href="https://katapult-magazin.de/de/artikel/spenden-fuer-ukraine">https://katapult-magazin.de/de/artikel/spenden-fuer-ukraine</a></li>
+</ul>]]></content><author><name>[&quot;Dr. Manuela Urban&quot;]</name></author><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/sunflowers.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/sunflowers.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Why digital sovereignty is more than mere legal compliance</title><link href="https://scs.community/2022/03/18/digital-sovereignty-whitepaper/" rel="alternate" type="text/html" title="Why digital sovereignty is more than mere legal compliance" /><published>2022-03-18T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/2022/03/18/digital-sovereignty-whitepaper</id><content type="html" xml:base="https://scs.community/2022/03/18/digital-sovereignty-whitepaper/"><![CDATA[<p><em>(This text has initially been published in <a href="https://the-report.cloud/downloads">The Cloud Report, issue 01/2022</a>. We thank you for this opportunity!)</em></p>
+
+<p><img src="/assets/images/blog/sea.jpg" style="width:100%; max-height: 450px; object-fit: cover;}" /></p>
+
+<p>Hardly any other term has been redefined and re-framed so frequently in last year’s
+digital political discourse as “digital sovereignty”. The common interpretations
+range from the use of Open Source Software down to local franchise agreements with
+tech companies whose commercial success relies on the lock-in effect achieved by
+having proprietary software in a few stack’s key places. This
+interpretive diversity of “digital sovereignty” not only allows these companies
+to use the term as a fig leaf, but also makes it difficult for governments, institutions,
+companies, and individuals to rationally evaluate the available offerings in order
+to make a strategically reasonable decision in the end.</p>
+
+<p>This article is intended to help demystify the term “digital sovereignty” by exploring
+the different dimensions of digital independence and is a first approach to create
+a well-defined taxonomy that allows an evaluation of digital offerings far away
+from buzzwords and hypes.</p>
+
+<p>So what is this digital sovereignty and if so, how much? Let’s find out together!</p>
+
+<h2 id="sovereignty-in-a-general-sense">Sovereignty in a general sense</h2>
+
+<p>The ambiguity of this conception already begins with the notion of sovereignty. Not
+without reason the German jurist Lassa Oppenheim writes</p>
+
+<blockquote><p>There exists perhaps no conception the meaning of which is more controversial than that of sovereignty. It is an indisputable fact that this conception, from the moment when it was introduced into political science until the present day, has never had a meaning which was universally agreed upon.</p><cite><a class="citation" href="#Oppenheim">(Oppenheim, 1912)</a></cite></blockquote>
+
+<p>Although the meaning of sovereignty has varied throughout history and across
+scientific disciplines,
+its core meaning can be condensed to “supreme authority within a territory” <a class="citation" href="#PhilDan">(Philpott, 2020)</a>.</p>
+
+<p>As Stéphane Couture and Sophie Toupin outline in their work “What Does the Concept
+of ‘Sovereignty’ Mean in Digital, Network and Technological Sovereignty?”, the 
+notion of territory does not need to be restricted to the landmass, <em>“but also - 
+and this is important for our later analysis - to resources lying on the territory
+such as human infrastructures …“</em> <a class="citation" href="#CouToupin">(Couture &amp; Toupin, 2019)</a>.</p>
+
+<p>For instance, in this same article, Couture and Toupin point out various notions
+of sovereignty, be it food sovereignty, energy sovereignty, or body sovereignty.
+While the former both terms address the sovereignty over the means of production,
+the latter term describes the self-determination over one’s own body.</p>
+
+<p>But what exactly does sovereignty in the digital realm refer to? Does it conceptualize
+the state authority in the digital space, does it relate to the means of production, 
+or ultimately, to self-determination over technology?</p>
+
+<p>Many attempts have already been made to fundamentally define this term. For instance,
+the focus group “Digitale Souveränität in einer vernetzten Gesellschaft” postulated
+at the German “Digital Gipfel” 2018:</p>
+
+<blockquote><p>Today, digital sovereignty is an important aspect of general sovereignty, which refers to the ability to use and design digital systems, self-determination over aggregated and stored data, as well as over the related processes.</p><cite><a class="citation" href="#DigitalGipfel2018">(Digital-Gipfel, 2018)</a></cite></blockquote>
+
+<p>How can we foster self-determination over technology, aggregated data
+and digital processes? To answer this question, we will now take a closer look
+at the various dimensions of digital sovereignty.</p>
+
+<h2 id="legal-dimension">Legal dimension</h2>
+
+<p>From a legal perspective, digital sovereignty would encompass the ability of a society
+to define the rules for digital solutions and to also enforce these rules. An important
+rule that the European Union has put in place is the General Data Protection Regulation
+(GDPR), which aims to govern the collection, processing and deletion of personally
+identifiable data in order to protect the freedom of individuals by giving them some
+level of transparency and control over data about them.</p>
+
+<p>Current discussions around digital sovereignty usually arise from the use of (cloud) 
+offerings that transfer or process personal data outside of the EU and thus are
+in conflict with the recent Schrems II judgment<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<p>For example, a variety of data protection authorities have raised concerns over the
+use of Microsoft 365 offerings as several violations of the GDPR have been identified:</p>
+
+<blockquote><p>Third, EU institutions faced a number of linked issues concerning data location, international transfers and the risk of unlawful disclosure of data. They were unable to control the location of a large portion of the data processed by Microsoft. Nor did they properly control what was transferred out of the EU/EEA and how. There was also a lack of proper safeguards to protect data that left the EU/EEA. EU institutions also had few guarantees at their disposal to defend their privileges and immunities and ensure that Microsoft would only disclose personal data insofar as permitted by EU law.</p><cite><a class="citation" href="#eudps">(European Data Protection Supervisor, 2020)</a></cite></blockquote>
+
+<p>A possible remedy is to create franchise agreements with local trustees
+who operate the software in their respective jurisdiction<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>. While this approach addresses the aforementioned conflict, neither
+self-determination nor sovereignty over the means of production are given.</p>
+
+<p>Even if local security institutions audit every single modification coming from
+the outside software provider,
+these offerings still need a high presumption of trust between software
+vendor, local franchise partner and customer. Are security updates provided to the
+trustees in a timely manner? Is operational knowledge around the technology
+(which may originally not have been designed to be operated by third parties)
+sufficiently shared and
+documentation appropriately maintained? Isn’t there still a complete dependence on
+the single technology provider and operator?</p>
+
+<p>These and more questions arise as soon as considering more than just the legal
+dimension of these offerings.</p>
+
+<h2 id="freedom-of-choice">Freedom of choice</h2>
+
+<p>When building digital services on top of infrastructure, the services will leverage
+the interfaces, automation capabilities, and higher level services from the
+infrastructure in order to work well and to be efficient in development and
+operations. This invariably makes the thus developed services dependent on
+the infrastructure.</p>
+
+<p>The dependence makes it hard to move these services to different infrastructure.
+The switching cost can easily become prohibitive and create a lock-in effect
+that makes it extremely hard to ever redeploy the services elsewhere.</p>
+
+<p>This can be mitigated in several ways. In the best case, all the interfaces,
+automation capabilities and higher level services are standardized well and
+can be implemented independently by a variety of software solutions and
+infrastructure operators. This is the case with Open Standards and Open
+Source Software.</p>
+
+<p>In somewhat less ideal scenarios, the interfaces and solutions are not
+standardized across vendors, but at least the software is easily available
+and can be and is operated independently by many providers, so all these
+providers can offer compatible solutions. Consumers of these services
+could also opt to deploy the software themselves and operate the infrastructure
+in-house if no external provider meets his needs.</p>
+
+<p>In the absence of open standards and available open source implementations,
+even with enough choice of providers, there remains a full dependence on
+the software provider, though.</p>
+
+<h2 id="technological-dimension">Technological dimension</h2>
+
+<p>With regard to sovereignty over the means of production, it is thus mandatory
+that we also analyze the technological self-determination of digital offerings.</p>
+
+<p>For the time being, we will ignore the area of hardware and focus entirely on
+software. This also corresponds to the observation of Kagermann et al:</p>
+
+<blockquote><p>In traditional contexts such as data centres, hardware is a readily available, standardised commodity. The users of enterprise software and other similar types of software can freely choose which hardware (e. g. PCs and notebooks) they use, and are thus able to avoid dependence on individual manufacturers. As long as hardware and software are decoupled, it doesn’t matter that there are no German hardware suppliers of note in the private and commercial markets.</p><cite><a class="citation" href="#acatech">(Kagermann et al., 2021)</a></cite></blockquote>
+
+<p>However, in the scope of software, on the other hand, proprietary licenses and vendor
+lock-in effects can create dependencies that ultimately contradict a self-determined
+usage of this technology.</p>
+
+<p>The answer is a global movement that originated in the late 1980s. 
+<em>“The open source movement has brought the world a new way of developing software”</em>,
+as Dirk Riehle points out correctly in his plea “The Unstoppable Rise of Open Source”.</p>
+
+<blockquote><p>Open source is a “development method for software that harnesses the power of distributed peer review and transparency of process. The promise of open source is better quality, higher reliability, more flexibility, lower cost, and an end to predatory vendor lock-in.</p><cite><a class="citation" href="#RiehDir">(Riehle, 2013)</a></cite></blockquote>
+
+<p>This is exactly where the importance of Open Source Software for achieving sovereignty
+and self-determination becomes evident. While we had to assume a high level of trust
+in the previously mentioned local franchise example, Open Source Software can be
+transparently peer-reviewed at any time. Simultaneously, we are not dependent on 
+a single technology provider and e.g. security updates can be provided by either an
+established community or a suitable contractor.</p>
+
+<p>Only the freedom to inspect, adapt, use and share the underlying technology grants
+sovereignty in the sense of self-determination. From a strategic perspective in the
+sense of digital sovereignty, however, securing these freedoms requires much more
+than just the corresponding licenses.</p>
+
+<p>On one hand, strategically important building blocks should also be sustained by
+a sufficiently active and open community that develops software according to the
+principles of the
+Four Opens<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup>.</p>
+
+<p>The flip side is: it requires skills and knowledge to actually be able to practice
+this self-determination at all. While Open Source makes the skill building
+possible, the required amount of knowledge can become prohibitive to actually
+exercising these possibilities. This will be the main subject of our next dimension.</p>
+
+<h2 id="dimension-of-competence">Dimension of competence</h2>
+
+<p>The greatest software is useless if it cannot be operated confidently. But for this
+to happen, skills and knowledge must be built up, fostered and retained. In an increasingly
+competitive market for skilled people and increasingly complex IT systems, this is
+becoming an ever greater challenge for
+governments, institutions and companies. How can we operate digital offerings in a
+self-determined, secure and qualitatively excellent manner?</p>
+
+<p>While software as a means of production has been and is being increasingly collectivized
+thanks to the Open Source movement,
+organizations continue to protect operational knowledge like a holy grail. How sovereign
+can an organization act, if precisely this important knowledge only adds to the
+lottery factor<sup id="fnref:4" role="doc-noteref"><a href="#fn:4" class="footnote" rel="footnote">4</a></sup>?</p>
+
+<p>The answer to this must be the collectivization of operational knowledge, just as
+it is being practiced for many years with software code. So we need to build
+communities who collaborate on exchanging and recording this experience and the
+tooling built to simplify the automation of operational processes. We create
+a climate in which Operations is not supposed to never make any mistakes – instead
+we create infrastructure that is robust against mistakes and a culture where
+openly talking about mistakes – even beyond organizational boundaries – and
+learning from them is appreciated and considered a strength. We learn more from
+our mistakes than from our successes – usually because we analyze them much
+more intensely.</p>
+
+<p>We are still at the beginning of a new movement, which is becoming increasingly
+important as the overall complexity of software stacks increases. For true
+self-determination in the ever growing digital realm, we urgently need to build 
+skills and share the gained knowledge freely and in unlimited ways also in the
+realm of operational knowledge — exactly the way we
+started with software code almost 40 years ago.</p>
+
+<p>Let’s start closing the gap to have Open Source style collaboration not just for the Dev
+piece in DevOps. And this is just another urgently needed piece to enhance and grow
+the overall digital capabilities for achieving sovereignty in the digital realm.</p>
+
+<h2 id="bibliography">Bibliography</h2>
+<ol class="bibliography"><li><span id="Oppenheim">Oppenheim, L. (1912). <i>International Law. A Treatise. Volume I (of 2) Peace. Second Edition</i>. Longmans, Green and Co.</span></li>
+<li><span id="PhilDan">Philpott, D. (2020). <a href="https://plato.stanford.edu/archives/fall2020/entries/sovereignty/">Sovereignty</a>. In E. N. Zalta (Ed.), <i>The Stanford Encyclopedia of Philosophy</i> (Fall 2020). Metaphysics Research Lab, Stanford University.</span></li>
+<li><span id="CouToupin">Couture, S., &amp; Toupin, S. (2019). <a href="https://doi.org/10.1177/1461444819865984">What does the notion of “sovereignty” mean when referring to the digital?</a> <i>New Media &amp; Society</i>, <i>21</i>(10), 2305–2322.</span></li>
+<li><span id="DigitalGipfel2018">Digital-Gipfel. (2018). <i><a href="https://www.de.digital/DIGITAL/Redaktion/DE/Digital-Gipfel/Download/2018/p2-digitale-souveraenitaet-und-kuenstliche-intelligenz.pdf">Digitale Souveränität und Künstliche Intelligenz – Voraussetzungen, Verantwortlichkeiten und Handlungsempfehlungen</a></i>. Plattform Innovative Digitalisierung der Wirtschaft: Fokusgruppe „Digitale Souveränität in einer vernetzten Gesellschaft“.</span></li>
+<li><span id="eudps">European Data Protection Supervisor. (2020). <i><a href="https://op.europa.eu/en/publication-detail/-/publication/ddc8842d-ca33-11ea-adf7-01aa75ed71a1/language-en">EDPS public paper on outcome of own-initiative investigation into EU institutions’ use of Microsoft products and services</a></i>. Publications Office.</span></li>
+<li><span id="acatech">Kagermann, H., Streibich, K.-H., &amp; Suder, K. (2021). <i><a href="https://www.acatech.de/publikation/digitale-souveraenitaet-status-quo-und-handlungsfelder/">Digital Sovereignty: Status Quo and Perspectives</a></i>. acatech - Deutsche Akademie der Technikwissenschaften.</span></li>
+<li><span id="RiehDir">Riehle, D. (2013). <a href="https://doi.org/10.1515/itit.2013.9005">The Unstoppable Rise of Open Source / Der Siegeszug von Open Source</a>. <i>It - Information Technology</i>, <i>55</i>(5), 171–172.</span></li></ol>
+
+<p><br /></p>
+
+<hr />
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>In its July 2020 Schrems II judgment, the Court of Justice of the European Union (CJEU) declared the European Commission’s Privacy Shield Decision invalid on account of invasive US surveillance programs, thereby making transfers of personal data on the basis of the Privacy Shield Decision illegal. See “The CJEU judgment in the Schrems II case” by the European Parliamentary Research Service. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>Examples include <a href="https://news.sap.com/2022/02/sap-arvato-systems-partnership/">SAP and Arvato in cooperation with Microsoft</a>, <a href="https://www.telekom.com/en/media/media-information/archive/joint-innovation-from-t-systems-and-google-cloud-632222">T-Systems in cooperation with Google</a> in Germany, as well as <a href="https://www.orange.com/en/newsroom/press-releases/2021/capgemini-and-orange-announce-plan-create-bleu-company-provide-cloud">Orange and Capgemini in cooperation with Microsoft</a> in France. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:3" role="doc-endnote">
+      <p>The <a href="https://openinfra.dev/four-opens">Four Opens</a> are a set of principles guidelines that were created by the OpenStack community as a way to guarantee that the users get all the benefits associated with open source software, including the ability to engage with the community and influence future evolution of the software. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:4" role="doc-endnote">
+      <p>The lottery factor, also referred to as bus factor, is a measurement of the risk loosing key technical experts that kept information and knowledge unavailable to the rest of the organization. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>[&quot;Eduard Itrich&quot;, &quot;Kurt Garloff&quot;, &quot;Felix Kronlage-Dammers&quot;]</name></author><summary type="html"><![CDATA[(This text has initially been published in The Cloud Report, issue 01/2022. We thank you for this opportunity!)]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/sea.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/sea.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Sovereign Cloud Stack Security Advisory dirty pipe</title><link href="https://scs.community/security/2022/03/07/advisory-dirty-pipe/" rel="alternate" type="text/html" title="Sovereign Cloud Stack Security Advisory dirty pipe" /><published>2022-03-07T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/security/2022/03/07/advisory-dirty-pipe</id><content type="html" xml:base="https://scs.community/security/2022/03/07/advisory-dirty-pipe/"><![CDATA[<h2 id="the-vulnerability">The vulnerability</h2>
+
+<p>On Fri, 2022-03-07, a failure in the Linux kernel code to properly initialize
+the flags field of pipe buffers became widely known as “dirty pipe” 
+(<a href="https://seclists.org/oss-sec/2022/q1/170">CVE-2022-0847</a>).
+The issue had been discovered and responsibly disclosed by Max Kellermann
+from IONOS SE.
+The bug allows any local user on a system to overwrite data in any file
+regardless of permissions and thus creates a trivial local root exploit.
+Even the page cache of read-only mappings can be overwritten (not leaving
+any traces on persistent storage).</p>
+
+<p>The issue was exposed (not introduced) by kernel commit 
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f6dd975583bd8ce088400648fd9819e4691c8958">f6dd975583bd</a>
+and affects Linux kernels 5.8 and newer. It was fixed with commit
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=9d2231c5d74e13b2a0546fee6737ee4446017903">9d2231c5d74e</a>
+and is also addressed in the stable kernels 5.16.11, 
+5.15.25 and 5.10.102.</p>
+
+<p>More details can be found on <a href="https://dirtypipe.cm4all.com/">https://dirtypipe.cm4all.com/</a>.</p>
+
+<h2 id="scs-reference-implementation">SCS reference implementation</h2>
+
+<p>The host images in the SCS reference implementation come from the 
+<a href="https://osism.tech">OSISM</a> project and are all built on top of 
+Ubuntu 20.04 LTS. To the best of our knowledge, the 5.4.xxx kernels
+used there are NOT affected by the issue. The exploit code fails to
+alter the page cache there. We are waiting
+to get an <a href="https://ubuntu.com/security/CVE-2022-0847">official announcement</a>
+from Canonical for a final confirmation.</p>
+
+<p>The management host deployed by the automation for our cluster management is
+using an Ubuntu 20.04 LTS image by default – it is thus not affected.
+We use cluster-api images for the kubernetes clusters provided by
+<a href="https://minio.services.osism.tech/openstack-k8s-capi-images">OSISM</a>. These
+are built on top of Ubuntu 20.04 LTS and thus not affected either.</p>
+
+<p>Cloud operators often provide popular Linux images as a convenience
+for their customers. These are not provided by SCS.
+Some of these Linux images are affected, e.g. newer non-LTS versions of Ubuntu,
+Fedora or Arch Linux. These should be updated to support the customers
+in protecting their VMs.</p>
+
+<h2 id="mitigation-and-fix">Mitigation and fix</h2>
+
+<p>At this time, for cloud providers using the SCS reference implementation,
+we see no required actions to protect the infrastructure, as the SCS reference
+implementation does not use any images that use the affected kernels.</p>
+
+<p>We recommend SCS operators to double check that no supporting system uses
+a vulnerable kernel. Furthermore, operators may have chosen newer kernels
+(e.g. the hardware enablement series from Ubuntu) due to specific hardware
+requirements. In both cases, we recommend a short-term risk assessment and
+the scheduling of the installation of fixed kernels.</p>
+
+<p>Most cloud operators provide images for the most popular Linux operating
+systems. We strongly recommend to replace them with updated images as soon
+as the Linux distributors have provided updated base images (which is
+the case for many distributors at this point).
+Note that SCS has defined <a href="https://github.com/SovereignCloudStack/Docs/blob/main/Design-Docs/Image-Properties-Spec.md">metadata</a>
+for images that allow users to see the build date. Any image that’s older than
+2022-02-21 and has a Linux kernel version &gt;= 5.8 will very likely
+be vulnerable.</p>
+
+<h2 id="note">Note</h2>
+
+<p>We are in fact lucky that the Sovereign Cloud Stack reference implementation
+is not affected by this high-risk vulnerability. Avoiding too many different
+Linux distributions and choosing a version with good long-term support were
+deliberate choices, but of course these are no guarantee to not be affected.
+They intended to ensure we can react quickly and effectively if affected.</p>
+
+<p>Images are built and tested nightly in the OSISM infrastructure; we would have
+pushed out new images within a day if we had been affected, so we have prepared
+to react to issues like this. We will however use the opportunity to double-check
+that our reactions would have worked.</p>
+
+<h2 id="sovereign-cloud-stack-security-contact">Sovereign Cloud Stack Security Contact</h2>
+
+<p>SCS security contact is <a href="mailto:security@scs.community">security@scs.community</a>, as published on
+<a href="https://scs.community/.well-known/security.txt">https://scs.community/.well-known/security.txt</a>.</p>
+
+<h2 id="version-history">Version history</h2>
+
+<ul>
+  <li>Initial release on 2022-03-07, 23:00 CET.</li>
+</ul>]]></content><author><name>[&quot;Christian Berendt&quot;, &quot;Kurt Garloff&quot;, &quot;Felix Kronlage-Dammers&quot;]</name></author><category term="security" /><summary type="html"><![CDATA[The vulnerability]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/pipe.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/pipe.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Sovereign Cloud Stack Community Plusserver Environment</title><link href="https://scs.community/2022/02/01/wallaby-upgrade/" rel="alternate" type="text/html" title="Sovereign Cloud Stack Community Plusserver Environment" /><published>2022-02-01T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/2022/02/01/wallaby-upgrade</id><content type="html" xml:base="https://scs.community/2022/02/01/wallaby-upgrade/"><![CDATA[<h3 id="one-wallaby-update-experience">One Wallaby Update Experience</h3>
+
+<p>Since more then one year Plusserver has provided the SCS Community Environment which is based on osism OpenStack Distrubution.</p>
+
+<p>For the Plusserver SCS Community Environment we started our OpenStack Wallaby upgrade
+in early December 2021 everything looked good and fine.</p>
+
+<p>One cosmetic issue was, that the neutron-metadata-agent was missing in “openstack network agent list”
+despite the agents being up and running.</p>
+
+<p>After one week we detected that some OpenStack services like octavia, nova and cinder became non-responsive.
+The reason could be traced back to the rabbitmq cluster, which was strangely running in a split brain fashion.
+After cleaning up the rabbitmq cluster and re-deploying it, everything went back to normal again.
+But it didn’t take too long and services became non-responsive again… 
+After an intensive diagnostic session we decided to roll rabbitmq back to the victoria container image version, which helped to work around this bug.</p>
+
+<h3 id="what-was-the-problem-">What was the Problem ?</h3>
+
+<p>Rabbitmq is the Messagebroker Cluster in the Sovereign Cloud Stack and core infrastructure component,
+it is a container based setup. From Victoria to Wallaby it has to switched form 3.8 tree to 3.9 tree</p>
+
+<p>In the <a href="https://www.rabbitmq.com/changelog.html">Changelog</a> of rabbitmq we found some traces.</p>
+
+<p>In the very early 3.9 (3.9.9) Rabbitmq releases was some issues:
+We suspect this <a href="https://github.com/rabbitmq/osiris/issues/53">issue</a> being the culprit, 
+which shows some issues with split brain situations in Container based setups.
+And finaly we assume it is fixed in rabbitmq 3.9.13</p>
+
+<p>We have filed an issue against the osism testbed in order to see, when the <a href="https://github.com/osism/testbed/issues/978">Bug</a> is fixed.</p>]]></content><author><name>[&quot;Mathias Fechner&quot;, &quot;Toens Bueker&quot;, &quot;Markus Lindenblatt&quot;]</name></author><summary type="html"><![CDATA[One Wallaby Update Experience]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/blog/wallaby.jpg" /><media:content medium="image" url="https://scs.community/assets/images/blog/wallaby.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Rückblick auf ein erfolgreiches Jahr: Sovereign Cloud Stack Community Summit 2021</title><link href="https://scs.community/2021/12/20/summit2021/" rel="alternate" type="text/html" title="Rückblick auf ein erfolgreiches Jahr: Sovereign Cloud Stack Community Summit 2021" /><published>2021-12-20T00:00:00+00:00</published><updated>2022-05-19T09:53:48+00:00</updated><id>https://scs.community/de/2021/12/20/summit2021</id><content type="html" xml:base="https://scs.community/2021/12/20/summit2021/"><![CDATA[<p>Liebe Community,</p>
+
+<p>wir danken euch vom ganzen Herzen für eure Teilnahme an unserem diesjährigen — und gleichzeitig ersten — <a href="https://eventyay.com/e/cf85f6e7">SCS Community Summit am 15. Dezember 2021</a>. Auch wenn wir uns ursprünglich sehr darauf gefreut haben euch alle persönlich auf der Cloud Expo in Frankfurt zu treffen und gemeinsam vor Ort anzustoßen, hat uns die aktuelle Pandemiesituation zu einem alternativen Format gezwungen. Ganz getreu dem Motto <em>8-Bit Retro Edition</em> fand das das diesjährige Communitytreffen im eigens geschaffenen <a href="https://github.com/SovereignCloudStack/scs-maschinenraum">SCS Maschinenraum</a> statt und bot virtuellen Raum für Vorträge, Diskussionen und Gespräche. Um trotzdem ein wenig Kongressfeeling aufkommen zu lassen, haben wir im Vorfeld kurzerhand einen Stickerexchange organisiert, so dass alle Teilnehmerinnen und Teilnehmer ein <em>Adventure Package</em> zugeschickt bekamen. Vielen Dank für eure Zusendungen und Unterstützung der Aktion!</p>
+
+<figure class="figure mx-auto d-block" style="width:70%">
+  <a href="/assets/images/summit2021/sticker-exchange-2021.jpg">
+    <img src="/assets/images/summit2021/sticker-exchange-2021.jpg" class="figure-img w-100" />
+  </a>
+</figure>
+
+<p>Den Anfang machten <a href="https://www.linkedin.com/in/stephan-ilaender-128b365/">Stephan Ilaender</a> und <a href="https://www.linkedin.com/in/felix-kronlage-dammers-9378a6184/">Felix Kronlage-Dammers</a> mit zwei Impulsvorträgen aus der Community. Die Folien zu den Vorträgen haben wir euch am Ende dieses Beitrags zusammengestellt.</p>
+
+<div class="row">
+    <div class="col">
+        <figure class="figure mx-auto d-block" style="width:70%">
+            <a href="/assets/images/summit2021/screenshot-stephan.png">
+                <img src="/assets/images/summit2021/screenshot-stephan.png" class="figure-img w-100" />
+            </a>
+        </figure>
+     </div>
+    <div class="col">
+        <figure class="figure mx-auto d-block" style="width:70%">
+            <a href="/assets/images/summit2021/screenshot-fkr.png">
+                <img src="/assets/images/summit2021/screenshot-fkr.png" class="figure-img w-100" />
+            </a>
+        </figure>
+    </div>
+</div>
+
+<p>Im Anschluss gaben <a href="/garloff">Kurt Garloff</a>, <a href="/urban">Manuela Urban</a>, <a href="/lossack">Dirk Loßack</a> und <a href="/itrich">Eduard Itrich</a> einen Überblick über das vergangene Jahr SCS, präsentierten einen Reiseführer in die Sovereign Cloud Stack Community sowie eine Übersicht über vergangene und anstehende Vergaben des Projektes. Auch diese Folien stellen wir euch am Ende dieses Beitrags gebündelt zur Verfügung.</p>
+
+<h2 id="meilensteine-für-2022">Meilensteine für 2022</h2>
+
+<p>Arbeitsintensiv für alle wurde dann die zweite Hälfte des Vormittags: Gemeinsam haben wir eure Ideen und Impulse für das kommende Jahr auf einem <a href="https://github.com/aliasaria/scrumblr">scrumblr</a> Board gesammelt und diskutiert. Diese werden wir nun zusammen mit dem Product Board in den kommenden Wochen aufbereiten und in das <a href="https://ms.scs.sovereignit.de/wekan/b/Zi4PKHTuEhugB7bkX/release-planing-r2">öffentliche Wekan Board</a> des Projektes überführen. Wir freuen uns bereits darauf diese Meilensteine schon bald mit euch anpacken zu dürfen!</p>
+
+<figure class="figure mx-auto d-block" style="width:100%">
+  <a href="/assets/images/summit2021/scrumblr-goals-2022.png">
+    <img src="/assets/images/summit2021/scrumblr-goals-2022.png" class="figure-img w-100" />
+  </a>
+</figure>
+
+<h2 id="retrospektive-und-state-of-the-community-2021">Retrospektive und State of the Community 2021</h2>
+
+<p>Der Nachmittag wurde mit der Vorstellung der Resultate aus der vergangenen Retrospektive sowie den Ergebnissen der Communityumfrage <em>State of the Community 2021</em> eingeläutet.</p>
+
+<link rel="stylesheet" href="/assets/vendor/apexcharts/apexcharts.css" />
+
+<script src="/assets/vendor/apexcharts/apexcharts.js"></script>
+
+<div id="chart-monday" style="min-height: 365px;"></div>
+<div id="chart-thursday" style="min-height: 365px;"></div>
+<div id="chart-community" style="min-height: 365px;"></div>
+<div id="chart-activity" style="min-height: 365px;"></div>
+
+<script>
+  var options = {
+    chart: {
+      type: 'boxPlot',
+      height: 350
+    },
+    plotOptions: {
+      bar: {
+        horizontal: true
+      },
+      boxPlot: {
+        colors: {
+          upper: '#0d6efd',
+          lower: '#50c3a5'
+        }
+      }
+    },
+    grid: {
+      xaxis: {
+        lines: {
+          show: true
+        }
+      }
+    },
+    yaxis: {
+      min: 0,
+      max: 10
+    },
+    xaxis: {
+      crosshairs: {
+        show: false
+      }
+    },
+    tooltip:{
+      x: {
+        show: false
+      }
+    }
+  }
+
+  options.title = {text: 'Monday Team Meetings'};
+  options.subtitle = {text: 'On a scale from 1 (worst) to 10 (best), how would you rate...'};
+  options.series = [
+    {
+      data: [
+        {
+          x: ['...the overall', 'effectiveness?'],
+          y: [4, 4.5, 7, 7.5, 8]
+        },
+        {
+          x: ['... your', 'comfortableness?'],
+          y: [4, 7, 8, 9.5, 10]
+        },
+        {
+          x: ['... the contribution', 'opportunities?'],
+          y: [7, 7.5, 9, 10, 10]
+        },
+        {
+          x: ['... the benefit for', 'you and your work?'],
+          y: [3, 4, 7, 8, 8]
+        },
+        {
+          x: ['... the overall', 'team vision?'],
+          y: [6, 7, 7.5, 9.75, 10]
+        }
+      ]
+    }
+  ];
+  var chart = new ApexCharts(document.querySelector("#chart-monday"), options);
+  chart.render();
+
+  options.title = {text: 'Thursday Overall Meeting'};
+  options.subtitle = {text: 'On a scale from 1 (worst) to 10 (best), how would you rate...'};
+  options.series = [
+    {
+      data: [
+        {
+          x: ['...the overall', 'effectiveness?'],
+          y: [5, 6, 7, 7.25, 8]
+        },
+        {
+          x: ['... your', 'comfortableness?'],
+          y: [7, 7.75, 9, 10, 10]
+        },
+        {
+          x: ['... the contribution', 'opportunities?'],
+          y: [8, 9, 9, 10, 10]
+        },
+        {
+          x: ['... the benefit for', 'you and your work?'],
+          y: [3, 4.75, 7, 8, 8]
+        }
+      ]
+    }
+  ];
+  var chart = new ApexCharts(document.querySelector("#chart-thursday"), options);
+  chart.render();
+
+  options.title = {text: 'Sovereign Cloud Stack Community'};
+  options.subtitle = {text: 'On a scale from 1 (worst) to 10 (best), how would you rate...'};
+  options.series = [
+    {
+      data: [
+        {
+          x: ['... the healthiness', 'of the community?'],
+          y: [4, 6, 6, 8.5, 10]
+        },
+        {
+          x: ['... the general mood', 'in the community?'],
+          y: [4, 6, 7, 8, 8]
+        },
+        {
+          x: ['... the collaboration', 'infrastructure and tools?'],
+          y: [6, 7, 7, 8, 10]
+        },
+        {
+          x: ['... the progress', 'of the project?'],
+          y: [3, 4, 6, 7, 7]
+        },
+        {
+          x: ['... the overall visibility', 'of the project?'],
+          y: [3, 4, 6, 7.75, 8]
+        }
+      ]
+    }
+  ];
+  var chart = new ApexCharts(document.querySelector("#chart-community"), options);
+  chart.render();
+
+  var options = {
+    series: [
+    {
+      data: [
+        {
+          x: 'Issues',
+          y: 8
+        },
+        {
+          x: 'Documentation',
+          y: 8
+        },
+        {
+          x: 'Code',
+          y: 6
+        },
+        {
+          x: 'Administrative tasks',
+          y: 6
+        },
+        {
+          x: 'Upstream Code',
+          y: 5
+        },
+        {
+          x: 'Upstream Issues',
+          y: 4
+        },
+        {
+          x: 'PR Reviews',
+          y: 3
+        },
+        {
+          x: 'Public Reations',
+          y: 3
+        },
+        {
+          x: 'Leading',
+          y: 3
+        },
+        {
+          x: 'Upstream PR Reviews',
+          y: 2
+        },
+        {
+          x: 'Upstream Documentation',
+          y: 2
+        },
+        {
+          x: "Nothing",
+          y: 1
+        }
+      ]
+    }
+  ],
+    legend: {
+      show: false
+  },
+  chart: {
+    height: 350,
+    type: 'treemap'
+  },
+  title: {
+    text: 'What have you been able to contribute to the project during this year?',
+    align: 'left'
+  },
+  colors: [
+    '#3B93A5',
+    '#F7B844',
+    '#ADD8C7',
+    '#EC3C65',
+    '#CDD7B6',
+    '#C1F666',
+    '#D43F97',
+    '#1E5D8C',
+    '#421243',
+    '#7F94B0',
+    '#EF6537',
+    '#C0ADDB'
+  ],
+  plotOptions: {
+    treemap: {
+      distributed: true,
+      enableShades: false
+    }
+  }
+  };
+
+  var chart = new ApexCharts(document.querySelector("#chart-activity"), options);
+  chart.render();
+</script>
+
+<h2 id="organisation-der-entwicklung">Organisation der Entwicklung</h2>
+
+<p>In der Gruppenarbeitsphase kristallisierte aus ursprünglich vier großen Handlungsfeldern die Organisation der Entwicklungsarbeit heraus, über welche in den letzten beiden Stunden des Community Summit intensiv diskutiert wurde. Die Ergebnisse wurden erneut in einem Scrumblr-Board festgehalten.</p>
+
+<figure class="figure mx-auto d-block" style="width:100%">
+  <a href="/assets/images/summit2021/scrumblr-organizing.png">
+    <img src="/assets/images/summit2021/scrumblr-organizing.png" class="figure-img w-100" />
+  </a>
+</figure>
+
+<h2 id="vielen-dank-">Vielen Dank! ❤</h2>
+
+<p>Wir danken euch allen für eure Teilnahme am diesjährigen Community Summit, der einen schönen Abschluss eines ereignisreichen Jahres bildete. Vor allem aber danken wir euch für euer Vertrauen in das Projekt, eure Unterstützung und eure Beiträge zum Erfolg des Sovereign Cloud Stack Projekts. Ohne euch wären wir heute nicht an diesem Punkt!</p>
+
+<p><img src="/assets/images/summit2021/christmas.png" class="my-5 w-50 mx-auto d-block" style="max-width:500px;" /></p>
+
+<h2 id="downloads">Downloads</h2>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/plusserver.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    Real Life Usecases für Gaia-X und SCS — <div class="d-inline small fw-light">Stephan Ilaender</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/collaboration_over_competition.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    Collaboration over Comptetition — <div class="d-inline small fw-light">Felix Kronlage-Dammers</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/history.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    The Sovereign Cloud Stack: From Idea to Realisation — <div class="d-inline small fw-light">Kurt Garloff, Dr. Manuela Urban</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/travelguide.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    Travel Guide Sovereign Cloud Stack — <div class="d-inline small fw-light">Eduard Itrich</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/tenders.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    Outlook and review of public tenders — <div class="d-inline small fw-light">Dirk Loßack</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/planning2022.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    Planing SCS for 2022 — <div class="d-inline small fw-light">SCS Product Board</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/images/summit2021/scrumblr-goals-2022.png" target="_blank">
+        <i class="fa fa-file-image-o"></i>
+    </a>
+  </div>
+  <div>
+    Goals for 2022
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/slides/summit2021/retrospectiove.pdf" target="_blank">
+        <i class="fa fa-file-pdf-o"></i>
+    </a>
+  </div>
+  <div>
+    Results of the first retrospective — <div class="d-inline small fw-light">Dirk Loßack</div>
+  </div>
+</div>
+
+<div class="list-group-item list-group-item-action d-flex flex-row align-items-start">
+  <div class="ms-2 me-4 my-auto">
+    <a class="mt-1 text-decoration-none text-secondary stretched-link" href="/assets/images/summit2021/scrumblr-organizing.png" target="_blank">
+        <i class="fa fa-file-image-o"></i>
+    </a>
+  </div>
+  <div>
+    Organizing the Development
+  </div>
+</div>]]></content><author><name>Eduard Itrich</name></author><summary type="html"><![CDATA[Liebe Community,]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://scs.community/assets/images/summit2021/dont-go-alone.png" /><media:content medium="image" url="https://scs.community/assets/images/summit2021/dont-go-alone.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  
+  
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Future directions - the road towards R3" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Welcome Release 2" />
+<meta property="og:description" content="Welcome Release 2" />
+<link rel="canonical" href="https://scs.community/tech/2022/03/23/r2-and-future-directions/" />
+<meta property="og:url" content="https://scs.community/tech/2022/03/23/r2-and-future-directions/" />
+<meta property="og:site_name" content="Sovereign Cloud Stack" />
+<meta property="og:image" content="https://scs.community/assets/images/default-card.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-03-23T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://scs.community/assets/images/default-card.jpg" />
+<meta property="twitter:title" content="Future directions - the road towards R3" />
+<meta name="twitter:site" content="@scs_osballiance" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-05-19T09:53:48+00:00","datePublished":"2022-03-23T00:00:00+00:00","description":"Welcome Release 2","headline":"Future directions - the road towards R3","image":"https://scs.community/assets/images/default-card.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://scs.community/tech/2022/03/23/r2-and-future-directions/"},"url":"https://scs.community/tech/2022/03/23/r2-and-future-directions/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <title>Future directions - the road towards R3 | Sovereign Cloud Stack</title>
+  <meta property="og:title" content="Future directions - the road towards R3 | Sovereign Cloud Stack">
+
+  <!-- Matomo -->
+  <script>
+    if (typeof(Storage) !== 'undefined') {
+    	if (localStorage.getItem('matomoTrackingEnabled') === null) {
+    		localStorage.setItem('matomoTrackingEnabled', 'true');
+    	}
+    }
+  </script>
+  <script>
+    if (localStorage.getItem('matomoTrackingEnabled') !== 'false') {
+      var _paq = window._paq = window._paq || [];
+      _paq.push(['disableCookies']);
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://matomo.scs.community/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    }
+  </script>
+  <!-- End Matomo Code -->
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" color="#50c3a5" href="/safari-pinned-tab.svg" />
+  <meta name="msapplication-TileColor" content="#50c3a5">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body class="d-flex flex-column min-vh-100">
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+  <div class="container align-items-start">
+    <div class="d-lg-flex flex-row flex-fill align-items-end">
+      <button
+        class="navbar-toggler me-auto"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/">
+                Home
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Discover SCS
+              </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  
+                    <li><a class="dropdown-item" href="/about/">About SCS</a></li>
+                  
+                    <li><a class="dropdown-item" href="/use/">Use SCS</a></li>
+                  
+                    <li><a class="dropdown-item" href="/community/">Our community</a></li>
+                  
+              </ul>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/news/">
+                News
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/jobs/">
+                Open positions
+              </a>
+            
+          </li>
+          
+          <li class="nav-item">
+            
+              <a class="nav-link" href="/tenders/">
+                Public tenders
+              </a>
+            
+          </li>
+          
+        </ul>
+        <ul class="navbar-nav flex-row align-content-end">
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://twitter.com/scs_osballiance">
+              <i class="fa fa-twitter fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://fosstodon.org/@sovereigncloudstack">
+              <i class="fa fa-mastodon fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://www.linkedin.com/showcase/sovereigncloudstack">
+              <i class="fa fa-linkedin-square fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://github.com/SovereignCloudStack">
+              <i class="fa fa-github fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://matrix.to/#/!TiDqlLmEUaXqTemaLc:matrix.org?via=matrix.org">
+              <i class="fa fa-matrix-org fa-lg"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="https://scs.sovereignit.de/mailman3/postorius/lists/announce.lists.scs.community/">
+              <i class="fa fa-bullhorn"></i>
+            </a>
+          </li>
+          
+          <li class="nav-item my-auto me-3 mx-lg-0">
+            <a class="nav-link" target="_blank" rel="me" href="/feed.xml">
+              <i class="fa fa-rss"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="d-none d-lg-block">
+        <ul class="navbar-nav flex-row">
+  <li class="nav-item my-auto ms-4 ms-lg-2">
+    <a class="nav-link fw-bold  text-decoration-underline  " href="/tech/2022/03/23/r2-and-future-directions/">EN</a>
+  </li>
+  <li class="nav-item my-auto mx-2 mx-lg-0">
+    <span class="nav-link px-0">/</span>
+  </li>
+  <li clas="nav-item my-auto">
+    <a class="nav-link fw-bold  " href="/de/tech/2022/03/23/r2-and-future-directions/">DE</a>
+  </li>
+</ul>
+      </div>
+    </div>
+    <div class="d-lg-none">
+      <ul class="navbar-nav flex-row">
+  <li class="nav-item my-auto ms-4 ms-lg-2">
+    <a class="nav-link fw-bold  text-decoration-underline  " href="/tech/2022/03/23/r2-and-future-directions/">EN</a>
+  </li>
+  <li class="nav-item my-auto mx-2 mx-lg-0">
+    <span class="nav-link px-0">/</span>
+  </li>
+  <li clas="nav-item my-auto">
+    <a class="nav-link fw-bold  " href="/de/tech/2022/03/23/r2-and-future-directions/">DE</a>
+  </li>
+</ul>
+    </div>
+  </div>
+</nav>
+ <!-- Header -->
+<header class="bg-white py-2 mb-2">
+  <div class="container h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-6 pe-lg-4">
+        <div class="mt-5 mb-3">
+           <img src="/assets/images/SCS_horizontal.svg" alt="Sovereign Cloud Stack" width="50%" class="img-fluid">  
+        </div>
+        <p class="lead text-black-50 mb-lg-3">
+          Sovereign Cloud Stack (SCS) is federated cloud technology built entirely with Open Source Software — putting users and providers in control.
+        </p>
+      </div>
+      <div class="col-lg-6 text-lg-end text-nowrap my-auto">
+        <a href="https://osb-alliance.com" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-osba.svg" alt="Open Source Business Alliance" width="25%" class="img-fluid">
+        </a>
+        <a href="https://bmwk.de" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-bmwk-funded.svg" alt="Bundesministerium für Wirtschaft und Klimaschutz" width="25%" class="img-fluid ms-5">
+        </a>
+        <a href="https://gaia-x.eu" target="_blank" class="text-decoration-none">
+          <img src="/assets/images/logo-gaiax.svg" alt="Gaia-X" width="30%" class="img-fluid ms-3">
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Page Content -->
+  <div class="container mb-5">
+    
+<div class="d-flex w-100 flex-column mb-3">
+	<h1 class="pb-1 mb-0"><small>Future directions - the road towards R3</small></h1>
+	<div class="d-flex w-100 flex-row">
+		<div style="max-width: 80px; max-height: 80px;" class="rounded-3 overflow-hidden ratio ratio-1x1">
+			<div style="max-width: 80px; max-height: 80px;" class="overflow-hidden ratio ratio-1x1">
+1
+
+  <svg height="80" width="80">
+    <mask id="cut">
+      <circle cx="40" cy="40" r="40" fill="white"/>
+    </mask>
+    <image x="0" y="0" height="80" width="80" xlink:href="/assets/images/fkr.jpg" mask="url(#cut)"></image>
+  </svg>
+
+</div>
+		</div>
+		<div class="d-flex w-100 flex-column ms-3 my-auto">
+			<small class="mb-1 fw-bolder">Felix Kronlage-Dammers</small>
+			<small>
+	March 23, 2022
+
+</small>
+		</div>
+	</div>
+</div>
+
+<h2 id="welcome-release-2">Welcome Release 2</h2>
+
+<p>Today we’re <a href="https://github.com/SovereignCloudStack/Docs/blob/main/Release-Notes/Release2.md">releasing the R2</a> of the reference implementation of the Sovereign
+Cloud Stack. Our release announcement covers the many aspects of this release
+in detail. These range from our work on integrating the Kubernetes Cluster API,
+many improvements that focus on the operator experience up to items that help
+to assure standard conformance of clouds being built with SCS.</p>
+
+<p>Since SCS has a fixed release schedule - we release twice a year - and through
+all the lively discussions of the past weeks moving towards our R2 we already
+have ideas of things we want to cover in the R3 cycle.</p>
+
+<h2 id="reaching-out-to-the-community">Reaching out to the community</h2>
+
+<p>SCS builds on top of the interaction of community members - CSPs, operators
+of cloud infrastructure as well as integrators who either build or support the
+process of building cloud infrastructure.</p>
+
+<p>There is a proposal for a <a href="https://github.com/SovereignCloudStack/Docs/pull/47">gitops style cluster management</a>
+approach on the table.</p>
+
+<p>As part of our discussions in the last week around octavia we concluded that it
+makes sense to further invest into the topic of loadbalancing withing cloud
+infrastructure and see if the current status, not only concerning OpenStack, can 
+be improved.</p>
+
+<h2 id="federation-needs-to-happen">Federation needs to happen</h2>
+
+<p>In R2 we started to lay the groundwork for the federation. Within the R3 cycle
+we want to to document and validate (and probably enhance) the user federation
+capabilities which we have implemented with <a href="https://www.keycloak.org">keycloak</a> and OpenID Connect federation.</p>
+
+<h2 id="help-to-increase-velocity">Help to increase velocity…</h2>
+
+<p>One of the goals of SCS is to help operators gain more velocity with their
+cloud infrastructure. However this relies on intensive testing and excellent
+quality assurance. As part of this effort we have started to use <a href="https://zuul-ci.org">zuul</a> as CI
+framework and intend to make significant progress in connecting all the
+existing tests to it.</p>
+
+<h2 id="as-well-as-standard-compliance-and-observability">…as well as standard compliance and observability</h2>
+
+<p>Good and extensive testing, while being important, are not the only aspects
+of providing solid cloud infrastructure. We want to heavily invest in SCS
+conformance testing, allowing providers that differ significantly from our
+reference implementation to still adjust their platforms for full
+compatibility. With the work that is happening in the Special Interest
+Group (SIG) Monitoring we want to make sure operators have an in-depth
+view into their stack. This will range from reworking the <a href="https://github.com/SovereignCloudStack/openstack-health-monitor">OpenStack
+Health Monitor</a> to build upon existing components such as <a href="https://opendev.org/openstack/tempest/">tempest</a> and
+<a href="https://opendev.org/openstack/rally">rally</a> as well as making sure logs are aggregated and can be analyzed.</p>
+
+<h2 id="metering-and-billing">Metering and Billing</h2>
+
+<p>In the last months metering and billing were discussed within our community.
+It has become apparent that this is one of the topics where the SCS project can
+provide added value to the broader OpenStack community and this will be one of
+the items that will be followed upon in the next few months.</p>
+
+<h2 id="encrypt-all-the-things">Encrypt all the things</h2>
+
+<p>The scs community started to work on a disk encryption feature based on <a href="https://github.com/latchset/tang">tang</a>. We’ve
+seen first previews of it and a lightning talk covered this first preview. For R3
+we intend to complete the disk encryption feature.</p>
+
+<h2 id="join-the-discussion">Join the discussion</h2>
+
+<p>As with the last release we will dive into a short retrospective mode in the upcoming
+week. In our team sessions in the calendar week 13 we will focus on reviewing our
+collaboration of the last months and see what can be kept, improved, started or stopped. 
+While there are ideas out on what R3 should bring our community is invited to join the
+discussion and help to shape SCS so that it adds value to your cloud infrastructure.
+The team meetings in week 14 are dedicated to these topics.</p>
+
+<p>We invite our community to join the discussions in the corresponding team sessions.</p>
+
+
+
+  </div>
+  <!-- /.container -->
+  <!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container text-light bg-dark">
+    <div class="row">
+      <div class="col-lg-5">
+        <a href="#" class="footer-site-logo">
+          <img src="/assets/images/SCS_short.svg" alt="Sovereign Cloud Stack" class="img-fluid mb-2">
+        </a>
+        <p class="small my-1">Sovereign Cloud Stack, SCS and the logo are registered trademarks of the Open Source Business Alliance e.V. — Other trademarks are property of their respective owners.</p>
+        <ul class="list-inline mt-2 mb-1">
+          
+          <li class="list-inline-item small me-sm-4 me-3">
+            <i class="text-light fa fa-phone me-1"></i> <a class="text-light text-decoration-none" href="tel:+49-30-300149-3377" title="+49-30-300149-3377">+49-30-300149-3377</a>
+          </li>
+          
+          <li class="list-inline-item small me-sm-4 me-3">
+            <i class="text-light fa fa-envelope me-1"></i> <a class="text-light text-decoration-none" href="mailto:project@scs.sovereignit.de" title="project[at]scs.sovereignit.de">project[at]scs.sovereignit.de</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="col-lg-7">
+        <ul class="list-inline text-lg-end mt-1 mb-1">
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://twitter.com/scs_osballiance">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-twitter fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://fosstodon.org/@sovereigncloudstack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-mastodon fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://www.linkedin.com/showcase/sovereigncloudstack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-linkedin-square fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://github.com/SovereignCloudStack">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-github fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://matrix.to/#/!TiDqlLmEUaXqTemaLc:matrix.org?via=matrix.org">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-matrix-org fa-lg fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="https://scs.sovereignit.de/mailman3/postorius/lists/announce.lists.scs.community/">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-bullhorn fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+          <li class="list-inline-item me-2">
+            <span class="fa-stack fa-lg">
+            <a target="_blank" href="/feed.xml">
+              <i class="text-gray fa fa-square fa-stack-2x"></i>
+              <i class="text-white fa fa-rss fa-stack-1x"></i>
+            </a>
+            </span>
+          </li>
+          
+        </ul>
+        <ul class="list-inline text-lg-end mt-2">
+          
+          <li class="list-inline-item me-2 ms-lg-2">
+            <a class="text-light text-decoration-none" title="Imprint" href="/imprint/">Imprint</a>
+          </li>
+          
+          <li class="list-inline-item me-2 ms-lg-2">
+            <a class="text-light text-decoration-none" title="Data Protection Statement" href="/dataprotection/">Data Protection Statement</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+</footer>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Lighbox -->
+  <script type="text/javascript" src="/assets/vendor/lightbox.js"></script>
+  <link rel="stylesheet" href="/assets/css/lightbox.css">
+</body>
+
+</html>
